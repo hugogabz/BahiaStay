@@ -7,8 +7,9 @@ export const api = axios.create({ baseURL: API, withCredentials: true, timeout: 
 
 
 api.interceptors.request.use((config) => {
-  const token = localStorage.getItem("bahiastay_token");
-  if (token) config.headers.Authorization = `Bearer ${token}`;
+  if (!['get', 'head', 'options'].includes((config.method || 'get').toLowerCase())) {
+    config.headers['X-CSRF-Protection'] = '1';
+  }
   return config;
 });
 

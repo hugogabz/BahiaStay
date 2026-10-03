@@ -29,6 +29,7 @@ from io import BytesIO
 from booking_price import price_booking
 from coldpayments import Coldpayments, sandbox_enabled, verify_signature
 from starlette.concurrency import run_in_threadpool
+from session_security import trusted_origins, require_admin_request, session_cookie_options
 
 
 database_url = os.environ.get('DATABASE_URL')
@@ -109,16 +110,15 @@ def create_access_token(user_id: str, email: str) -> str:
     return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALG)
 
 async def get_current_admin(request: Request) -> dict:
-    token = None
-    auth = request.headers.get("Authorization", "")
-    if auth.startswith("Bearer "):
-        token = auth[7:]
-    if not token:
-        token = request.cookies.get("access_token")
+    token = request.cookies.get("access_token")
     if not token:
         raise HTTPException(status_code=401, detail="Not authenticated")
+    if request.method not in {'GET', 'HEAD', 'OPTIONS'}:
+        require_admin_request(request)
     try:
-        payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALG])
+        payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALG], options={'require': ['sub', 'exp', 'type']})
+        if payload['type'] != 'access':
+            raise jwt.InvalidTokenError('Invalid token type')
     except jwt.ExpiredSignatureError:
         raise HTTPException(status_code=401, detail="Token expired")
     except jwt.InvalidTokenError:
@@ -134,7 +134,6 @@ class LoginRequest(BaseModel):
     password: str
 
 class LoginResponse(BaseModel):
-    access_token: str
     user: dict
 
 class Coords(BaseModel):
@@ -295,7 +294,8 @@ async def startup():
 
 
 @api_router.post("/auth/login", response_model=LoginResponse)
-async def login(body: LoginRequest, response: Response):
+async def login(body: LoginRequest, response: Response, request: Request):
+    require_admin_request(request)
     email = body.email.lower().strip()
     user = await db.users.find_one({"email": email})
     if not user or not verify_password(body.password, user["password_hash"]):
@@ -303,22 +303,26 @@ async def login(body: LoginRequest, response: Response):
     token = create_access_token(user["user_id"], email)
 
     response.set_cookie(
-        key="access_token", value=token, httponly=True, secure=True,
-        samesite="none", max_age=7 * 24 * 3600, path="/",
+        key="access_token", value=token, max_age=7 * 24 * 3600,
+        **session_cookie_options(request),
     )
     safe_user = {
         "user_id": user["user_id"], "email": user["email"],
         "name": user.get("name", ""), "role": user.get("role", "admin"),
     }
-    return {"access_token": token, "user": safe_user}
+    response.headers['Cache-Control'] = 'no-store'
+    return {"user": safe_user}
 
 @api_router.get("/auth/me")
-async def me(current: dict = Depends(get_current_admin)):
+async def me(response: Response, current: dict = Depends(get_current_admin)):
+    response.headers['Cache-Control'] = 'no-store'
     return current
 
 @api_router.post("/auth/logout")
-async def logout(response: Response):
-    response.delete_cookie("access_token", path="/")
+async def logout(response: Response, request: Request):
+    require_admin_request(request)
+    response.delete_cookie("access_token", **session_cookie_options(request))
+    response.headers['Cache-Control'] = 'no-store'
     return {"ok": True}
 
 
@@ -796,7 +800,7 @@ app.include_router(api_router)
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
-    allow_origins=os.environ.get("CORS_ORIGINS", "*").split(","),
+    allow_origins=trusted_origins(),
     allow_methods=["*"],
     allow_headers=["*"],
 )

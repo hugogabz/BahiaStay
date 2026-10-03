@@ -35,3 +35,11 @@ Não há credenciais Coldpay nem conexão Neon incluídas neste repositório. A 
 ## Verificação
 
 Execute `python -m unittest discover -s backend/tests -p "test_*.py"` com as dependências instaladas e configuração local de teste. No frontend: `yarn test --watchAll=false --runInBand` e `yarn build`. Depois da publicação, confira catálogo, autenticação, edição, galeria e checkout de sandbox no endereço público.
+
+## Sessão administrativa
+
+O login retorna apenas os dados públicos do administrador. O token fica em cookie HttpOnly, host-only, com Secure em HTTPS; não é salvo em localStorage nem aceito como Bearer. Tokens antigos no localStorage são removidos ao abrir o site. Login, logout e gravações administrativas exigem origem explícita em CORS_ORIGINS/FRONTEND_URL e o cabeçalho X-CSRF-Protection: 1, enviado pela interface. Não use wildcard nas origens.
+
+O desenvolvimento HTTP é permitido apenas em localhost/127.0.0.1/::1, com cookie SameSite=Lax. Em HTTPS, o padrão SameSite=None permite os dois projetos separados. Navegadores que bloqueiam cookies de terceiros podem impedir esse fluxo: prefira servir a API via proxy /api no domínio do frontend (ou domínios próprios no mesmo site), usando AUTH_COOKIE_SAMESITE=lax. A configuração do proxy depende da URL final da API. Nunca volte a armazenar o token no frontend para contornar essa restrição.
+
+A sessão expira em sete dias. O logout limpa o cookie no navegador; não revoga uma cópia do JWT previamente roubada. Use uma senha administrativa forte antes de publicar e valide a sessão no endereço público. A troca de armazenamento não substitui uma auditoria de segurança completa.

@@ -17,9 +17,13 @@ export default function AdminLayout() {
   const navigate = useNavigate();
 
   const onLogout = async () => {
-    await logout();
-    toast.success("Até logo!");
-    navigate("/admin/login");
+    try {
+      await logout();
+      toast.success("Até logo!");
+      navigate("/admin/login");
+    } catch {
+      toast.error("Não foi possível encerrar a sessão. Verifique a conexão e tente novamente.");
+    }
   };
 
   const isActive = (to, exact) => (exact ? location.pathname === to : location.pathname.startsWith(to));

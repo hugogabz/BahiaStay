@@ -8,12 +8,7 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   const checkAuth = useCallback(async () => {
-    const token = localStorage.getItem("bahiastay_token");
-    if (!token) {
-      setUser(null);
-      setLoading(false);
-      return;
-    }
+    localStorage.removeItem("bahiastay_token");
     try {
       const { data } = await api.get("/auth/me");
       setUser(data);
@@ -31,15 +26,12 @@ export function AuthProvider({ children }) {
 
   const login = async (email, password) => {
     const { data } = await api.post("/auth/login", { email, password });
-    localStorage.setItem("bahiastay_token", data.access_token);
     setUser(data.user);
     return data.user;
   };
 
   const logout = async () => {
-    try {
-      await api.post("/auth/logout");
-    } catch {}
+    await api.post("/auth/logout");
     localStorage.removeItem("bahiastay_token");
     setUser(null);
   };

@@ -16,7 +16,8 @@ ADMIN_PASSWORD = os.environ.get("TEST_ADMIN_PASSWORD")
 def _tiny_png_bytes() -> bytes:
 
     def chunk(tag, data):
-        return struct.pack(">I", len(data)) + tag + data + struct.pack(">I", zlib.crc32(tag + data) & 0xffffffff)
+        s.headers.update({"Origin": os.environ.get("TEST_FRONTEND_ORIGIN", "http://127.0.0.1:3000"), "X-CSRF-Protection": "1"})
+    return struct.pack(">I", len(data)) + tag + data + struct.pack(">I", zlib.crc32(tag + data) & 0xffffffff)
     sig = b"\x89PNG\r\n\x1a\n"
     ihdr = struct.pack(">IIBBBBB", 1, 1, 8, 2, 0, 0, 0)
     raw = b"\x00\xff\x00\x00"
@@ -37,14 +38,14 @@ def token(api):
     r = api.post(f"{API}/auth/login", json={"email": ADMIN_EMAIL, "password": ADMIN_PASSWORD})
     assert r.status_code == 200, r.text
     data = r.json()
-    assert "access_token" in data and "user" in data
+    assert "access_token" not in data and "user" in data
     assert data["user"]["email"] == ADMIN_EMAIL
-    return data["access_token"]
+    return api.cookies.get("access_token")
 
 
 @pytest.fixture
 def auth_headers(token):
-    return {"Authorization": f"Bearer {token}"}
+    return {"Cookie": f"access_token={token}", "Origin": os.environ.get("TEST_FRONTEND_ORIGIN", "http://127.0.0.1:3000"), "X-CSRF-Protection": "1"}
 
 
 
