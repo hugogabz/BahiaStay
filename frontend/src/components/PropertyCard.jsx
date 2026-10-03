@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Heart, ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
 import { DESTINATIONS } from '@/data/properties';
 import { fileUrl } from '@/lib/api';
 import { useFavorite } from '@/lib/favorites';
@@ -35,9 +35,15 @@ export default function PropertyCard({
       <button className="favorite-button" aria-pressed={liked} aria-label={`${liked ? 'Remover dos' : 'Adicionar aos'} favoritos: ${property.title}`} onClick={toggle} data-testid={`property-card-heart-btn-${index + 1}`}><Heart size={18} fill={liked ? 'currentColor' : 'none'} /></button>
       {images.length > 1 && <><button className="carousel-nav previous" onClick={() => move(-1)} aria-label={`Foto anterior: ${property.title}`}><ChevronLeft size={20} /></button><button className="carousel-nav next" onClick={() => move(1)} aria-label={`Próxima foto: ${property.title}`}><ChevronRight size={20} /></button><span className="image-count">{idx + 1}/{images.length}</span></>}
     </div>
-    <div className="card-location">{destination} · {property.neighborhood}</div>
+    <div className="card-copy">
+    <div className="card-location">{destination}{property.neighborhood && property.neighborhood !== destination ? ` · ${property.neighborhood}` : ''}</div>
     <h3><Link to={url}>{property.title}</Link></h3>
     <p className="card-capacity">Até {property.guests} hóspedes · {property.bedrooms === 0 ? 'Estúdio' : `${property.bedrooms} ${property.bedrooms === 1 ? 'quarto' : 'quartos'}`}</p>
+    <p className="card-amenities">{[['pool','Piscina'],['ocean','Vista para o mar'],['bbq','Churrasqueira'],['parking','Estacionamento'],['ac','Ar-condicionado']].filter(([key]) => property.amenities?.includes(key)).slice(0,3).map(([,label]) => label).join(' · ')}</p>
+    </div>
+    <div className="card-booking">
     <p className="card-price">{hasPrice ? <><strong>{brl(quote.nights ? quote.total : property.pricePerNight)}</strong> {quote.nights ? `por ${quote.nights} noites` : '/ noite'}{quote.seasonalExtra > 0 && <small className="season-nights">Inclui ajuste de alta temporada</small>}</> : <strong>Consultar valor</strong>}</p>
+    <Link to={url} className="card-details" aria-label={`Conhecer ${property.title}`}>Conhecer a casa <ArrowUpRight size={17} aria-hidden="true" /></Link>
+    </div>
   </article>;
 }

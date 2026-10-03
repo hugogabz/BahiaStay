@@ -27,6 +27,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import BaseModel, EmailStr, Field, ConfigDict, model_validator
 from io import BytesIO
 from booking_price import price_booking
+from catalog_identity import enrich_catalog_identity
 from coldpayments import Coldpayments, sandbox_enabled, verify_signature
 from starlette.concurrency import run_in_threadpool
 from session_security import trusted_origins, require_admin_request, session_cookie_options
@@ -146,13 +147,13 @@ class PropertyPhoto(BaseModel):
     storage_path: Optional[str] = None
 
 class HostInfo(BaseModel):
-    name: str = "Família Fonseca"
-    bio: str = "Anfitriões há anos nas melhores praias do Brasil."
+    name: str = ""
+    bio: str = ""
     photo: Optional[str] = None
     photo_storage_path: Optional[str] = None
-    since: Optional[int] = 2019
-    languages: List[str] = ["Português", "Inglês"]
-    response_time: str = "em até 1 hora"
+    since: Optional[int] = None
+    languages: List[str] = []
+    response_time: str = ""
 
 class SeasonalPricing(BaseModel):
     newYearPercent: float = Field(default=40, ge=0, le=300)
@@ -327,7 +328,7 @@ async def logout(response: Response, request: Request):
 
 
 def _normalize_property(doc: dict) -> dict:
-    out = {k: v for k, v in doc.items() if k != "_id"}
+    out = enrich_catalog_identity({k: v for k, v in doc.items() if k != "_id"})
 
     photos = out.get("photos") or []
     if not photos and out.get("images"):

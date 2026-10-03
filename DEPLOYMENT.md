@@ -16,7 +16,7 @@ Crie um projeto Vercel com Root Directory `backend` e framework FastAPI. Use bac
 
 ## Frontend
 
-Crie outro projeto com Root Directory `frontend`, framework Create React App, comando `yarn build` e saída `build`. Defina REACT_APP_BACKEND_URL com a URL HTTPS da API e publique novamente depois de alterar essa variável. Nenhuma chave secreta deve usar o prefixo REACT_APP_.
+Crie outro projeto com Root Directory `frontend`, framework Create React App, comando `yarn build` e saída `build`. Mantenha REACT_APP_BACKEND_URL vazio: frontend/vercel.json encaminha /api para https://bahia-stay-api.vercel.app. Nenhuma chave secreta deve usar o prefixo REACT_APP_.
 
 Importe `https://github.com/hugogabz/BahiaStay`, branch de produção `main`, na conta Vercel do usuário. Crie os dois projetos a partir desse mesmo repositório, usando as respectivas pastas raiz. O repositório original do dono permanece separado e não é atualizado automaticamente por essa publicação.
 
@@ -26,7 +26,7 @@ PAYMENT_PROVIDER está definido como coldpay e PAYMENTS_ENABLED como false. A in
 
 A documentação consultada só apresenta a API de produção. Não há sandbox confirmado. Não habilite cobranças nem use uma chave de produção para testes. Solicite ao provedor URL, credenciais e instruções de um ambiente sem movimentação real. Depois, configure privadamente COLDPAYMENTS_API_BASE_URL, COLDPAYMENTS_API_KEY e COLDPAYMENTS_WEBHOOK_SECRET; a chave só precisa dos escopos payments:read e payments:write. A URL do webhook é https://URL-DA-API/api/coldpayments/webhook. COLDPAYMENTS_SANDBOX_CONFIRMED=true e PAYMENTS_ENABLED=true só devem ser definidos após essa confirmação. O código bloqueia o host de produção e redirecionamentos HTTP.
 
-Quando configurado, o frontend apresenta QR Code, copia e cola e acompanha a confirmação. Sem configuração, o botão de teste fica oculto. Cartões via Coldpayments não estão implementados. O Stripe antigo continua protegido e não é ativado pela configuração Coldpay.
+Quando configurado, o frontend apresenta QR Code, copia e cola e acompanha a confirmação. Sem configuração, o checkout mostra Pagamento indisponível e não cria reservas nem cobranças. O WhatsApp é somente suporte. Cartões via Coldpayments não estão implementados. O Stripe antigo continua protegido e não é ativado pela configuração Coldpay.
 
 Antes de habilitar pagamentos reais será necessário validar o fluxo completo no ambiente do provedor, definir a política de reservas pendentes/expiração, cancelamentos e reembolsos e revisar a concorrência de reservas. Os testes simulados não substituem essa validação. Reservas de teste que falharem podem ser removidas no painel administrativo para liberar as datas.
 
@@ -43,3 +43,11 @@ O login retorna apenas os dados públicos do administrador. O token fica em cook
 O desenvolvimento HTTP é permitido apenas em localhost/127.0.0.1/::1, com cookie SameSite=Lax. Em HTTPS, o padrão SameSite=None permite os dois projetos separados. Navegadores que bloqueiam cookies de terceiros podem impedir esse fluxo: prefira servir a API via proxy /api no domínio do frontend (ou domínios próprios no mesmo site), usando AUTH_COOKIE_SAMESITE=lax. A configuração do proxy depende da URL final da API. Nunca volte a armazenar o token no frontend para contornar essa restrição.
 
 A sessão expira em sete dias. O logout limpa o cookie no navegador; não revoga uma cópia do JWT previamente roubada. Use uma senha administrativa forte antes de publicar e valide a sessão no endereço público. A troca de armazenamento não substitui uma auditoria de segurança completa.
+
+## Revisão do catálogo e interface
+
+A publicação usa https://bahia-stay.vercel.app e https://bahia-stay-api.vercel.app, vinculados à main de hugogabz/BahiaStay. O catálogo contém 57 imóveis. Os anfitriões de 42 referências do Airbnb foram conferidos nas fontes públicas; links e datas constam em backend/catalog_identity.json. As 15 casas antigas sem fonte não recebem um nome de anfitrião inventado. Todos os comentários de apresentação são identificados como exemplos e não são avaliações reais.
+
+A normalização da API aplica esses metadados aos registros existentes sem alterar fotos, preços ou reservas. Nomes de responsáveis editados manualmente não são substituídos pelo catálogo. A lista usa fotos horizontais e divisores, exibe 12 resultados de cada vez e mantém filtros e favoritos.
+
+Pendências para operação real: identificar os anfitriões das 15 casas sem fonte, cadastrar dados reais de anúncio e disponibilidade, configurar armazenamento para novos uploads administrativos (as fotos atuais do Cloudinary já carregam), conferir o login administrativo com a senha definida pelo usuário e validar pagamentos, expiração de reservas, concorrência e cancelamentos no ambiente do gateway. O catálogo e os bloqueios autorizados para apresentação não significam disponibilidade comercial. O upload administrativo atual ainda usa o armazenamento legado; não foi validado em produção.

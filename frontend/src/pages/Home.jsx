@@ -31,6 +31,8 @@ const Home = () => {
   const [retry, setRetry] = useState(0);
   const [submitted, setSubmitted] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(12);
+  useEffect(() => { setVisibleCount(12); }, [location.search]);
   const datesError = dateError(checkIn, checkOut);
   const priceError = minPrice && Number(minPrice) < 0 || maxPrice && Number(maxPrice) < 0 || minPrice && maxPrice && Number(minPrice) > Number(maxPrice);
   const applyParams = next => navigate({ pathname: location.pathname, search: next.toString(), hash: location.hash }, { replace: true });
@@ -124,7 +126,7 @@ const Home = () => {
         <p id="search-date-message" role={submitted && datesError ? 'alert' : undefined} className={submitted && datesError ? 'field-error' : 'helper-text'}>{submitted && datesError ? datesError : 'Escolha as datas para ver as casas disponíveis.'}</p>
       </section>
       <section id="destinos" className="page-container results-section">
-        <div className="results-heading"><h2>{savedOnly ? 'Casas salvas' : 'Casas de temporada'}</h2><p aria-live="polite" data-testid="results-count">{loading ? 'Carregando imóveis…' : error ? 'Catálogo indisponível' : `${filtered.length} ${filtered.length === 1 ? 'casa encontrada' : 'casas encontradas'}`}</p></div>
+        <div className="results-heading"><div><p className="catalog-eyebrow">Encontre sua próxima estadia</p><h2>{savedOnly ? 'Suas casas salvas' : 'Uma casa, outro ritmo.'}</h2></div><p aria-live="polite" data-testid="results-count">{loading ? 'Carregando imóveis…' : error ? 'Catálogo indisponível' : `${filtered.length} ${filtered.length === 1 ? 'casa encontrada' : 'casas encontradas'}`}</p></div>
         <div className="catalog-view-tabs" role="group" aria-label="Escolher lista de casas">
           <button type="button" aria-pressed={!savedOnly} onClick={() => update('salvas', '')}>Todas as casas</button>
           <button type="button" aria-pressed={savedOnly} onClick={() => update('salvas', '1')} data-testid="saved-houses-toggle"><Heart size={16} aria-hidden="true" fill={savedOnly ? 'currentColor' : 'none'} />Salvas <span className="saved-count">{savedCount}</span></button>
@@ -147,7 +149,8 @@ const Home = () => {
               length: 6
             }, (_, i) => <div key={i} className="property-skeleton" aria-hidden="true"><div /><p /><p /></div>)}
             {error && <div className="result-message" role="alert"><h3>Não foi possível carregar as casas</h3><p>Verifique sua conexão e tente novamente.</p><Button onClick={() => setRetry(v => v + 1)}>Tentar novamente</Button></div>}
-            {!loading && !error && filtered.map((p, i) => <PropertyCard key={p.id} property={p} index={i} search={stayParams.toString()} />)}
+            {!loading && !error && filtered.slice(0, visibleCount).map((p, i) => <PropertyCard key={p.id} property={p} index={i} search={stayParams.toString()} />)}
+            {!loading && !error && filtered.length > visibleCount && <div className="catalog-more"><p>Você está vendo {visibleCount} de {filtered.length} casas</p><Button variant="outline" onClick={() => setVisibleCount(v => v + 12)} data-testid="show-more-houses">Ver mais casas <span aria-hidden="true">↓</span></Button></div>}
             {!loading && !error && filtered.length === 0 && (savedOnly && savedCount === 0
               ? <div className="result-message" role="status"><Heart size={28} aria-hidden="true" className="empty-saved-heart" /><h3>Você ainda não salvou nenhuma casa</h3><p>Toque no coração de uma casa para encontrá-la aqui depois.</p><Button variant="outline" onClick={() => update('salvas', '')}>Ver todas as casas</Button></div>
               : <div className="result-message" role="status"><h3>{savedOnly ? 'Nenhuma casa salva atende à busca' : 'Nenhuma casa atende à busca'}</h3><p>Tente outro destino, quantidade de hóspedes ou faixa de preço.</p><Button variant="outline" onClick={clear}>Limpar filtros</Button></div>)}

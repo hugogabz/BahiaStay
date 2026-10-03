@@ -7,6 +7,18 @@ jest.mock('../lib/api',()=>({api:{get:jest.fn()},fileUrl:v=>v}));
 let container,root;
 beforeEach(()=>{localStorage.clear();container=document.createElement('div');document.body.appendChild(container);root=createRoot(container);jest.clearAllMocks();});
 afterEach(()=>{act(()=>root.unmount());container.remove();localStorage.clear();});
+
+test('catalogue reveals more houses without losing filters or duplicating results', async () => {
+ const base={title:'Casa teste',destination:'salvador',neighborhood:'Praia',guests:4,bedrooms:2,pricePerNight:300,images:[]};
+ api.get.mockResolvedValue({data:Array.from({length:25},(_,i)=>({...base,id:`home-${i}`}))});
+ await act(async()=>root.render(<MemoryRouter><Home/></MemoryRouter>));
+ expect(container.querySelectorAll('.property-card')).toHaveLength(12);
+ await act(async()=>container.querySelector('[data-testid=show-more-houses]').click());
+ expect(container.querySelectorAll('.property-card')).toHaveLength(24);
+ await act(async()=>container.querySelector('[data-testid=show-more-houses]').click());
+ expect(container.querySelectorAll('.property-card')).toHaveLength(25);
+ expect(container.querySelector('[data-testid=show-more-houses]')).toBeNull();
+});
 test('catalog load failure is distinct from empty results, and retry recovers',async()=>{
  api.get.mockRejectedValueOnce(new Error('offline')).mockResolvedValueOnce({data:[]});
  await act(async()=>root.render(<MemoryRouter><Home/></MemoryRouter>));

@@ -1,0 +1,1874 @@
+{
+  "ps-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Mirante Taperapuã para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 8 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ps-02": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé Pataxó Beach para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ps-03": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Bruna",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Villa Coroa Vermelha para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 10 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "il-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Olivença Beach para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 6 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "il-02": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Loft Cacau & Mar para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Pedro",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "il-03": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casarão Jorge Amado para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 7 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ar-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Villa Mucugê para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 6 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ar-02": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Bruna",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Pitinga para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 5 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ar-03": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé Araçaípe para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 3 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ar-04": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Villa Tropical Ajuda para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Pedro",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 8 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "je-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Duna Pôr do Sol para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 6 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "fn-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé Baía dos Porcos para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "bz-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Bruna",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Villa Geribá Beach para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 7 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "mg-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Bangalô Caribe Brasileiro para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 4 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "fl-01": {
+    "expectedHostNames": [
+      "Família Fonseca",
+      ""
+    ],
+    "host": {
+      "name": "",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": false
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Praia Mole para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Pedro",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 6 hóspedes ajudou a planejar os dias de férias."
+      }
+    ]
+  },
+  "ref_1766068988505896040": {
+    "expectedHostNames": [
+      "Odilon",
+      "Odilon"
+    ],
+    "host": {
+      "name": "Odilon",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1766068988505896040",
+      "verifiedAt": "2026-10-03T23:34:13.362090+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Apartamento - Costa Azul para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 4 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1766068988505896040"
+  },
+  "ref_1387661319864956211": {
+    "expectedHostNames": [
+      "Ricardo",
+      "Ricardo"
+    ],
+    "host": {
+      "name": "Ricardo",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1387661319864956211",
+      "verifiedAt": "2026-10-03T23:34:13.398359+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Studio Novo | Praia + Centro Convenções | Garagem para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1387661319864956211"
+  },
+  "ref_1493121924838455579": {
+    "expectedHostNames": [
+      "Alex",
+      "Alex"
+    ],
+    "host": {
+      "name": "Alex",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1493121924838455579",
+      "verifiedAt": "2026-10-03T23:34:13.134853+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Bruna",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Acomodação na comunidade do solar do unhao para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1493121924838455579"
+  },
+  "ref_1764860011054934847": {
+    "expectedHostNames": [
+      "Emerson",
+      "Emerson"
+    ],
+    "host": {
+      "name": "Emerson",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1764860011054934847",
+      "verifiedAt": "2026-10-03T23:34:14.574953+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé com Hidromassagem Aquecida Privativa + Praia para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 3 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1764860011054934847"
+  },
+  "ref_1363701261158839358": {
+    "expectedHostNames": [
+      "Ricardo Guilherme Kurpan",
+      "Ricardo Guilherme Kurpan"
+    ],
+    "host": {
+      "name": "Ricardo Guilherme Kurpan",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1363701261158839358",
+      "verifiedAt": "2026-10-03T23:34:14.483403+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Romântica cabana pé na areia na Bahia para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Pedro",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1363701261158839358"
+  },
+  "ref_1265176684556864251": {
+    "expectedHostNames": [
+      "Somar Hospedagem",
+      "Somar Hospedagem"
+    ],
+    "host": {
+      "name": "Somar Hospedagem",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1265176684556864251",
+      "verifiedAt": "2026-10-03T23:34:14.861827+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Apto Taperapuan 150m da Praia 3 para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 7 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1265176684556864251"
+  },
+  "ref_1513413581453337258": {
+    "expectedHostNames": [
+      "Max Benjamin",
+      "Max Benjamin"
+    ],
+    "host": {
+      "name": "Max Benjamin",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1513413581453337258",
+      "verifiedAt": "2026-10-03T23:34:15.877901+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Vila Mundaí · 2 quartos c/ suíte a 500m da praia. para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 7 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1513413581453337258"
+  },
+  "ref_52329750": {
+    "expectedHostNames": [
+      "Cynthia",
+      "Cynthia"
+    ],
+    "host": {
+      "name": "Cynthia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/52329750",
+      "verifiedAt": "2026-10-03T23:34:16.143637+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Bruna",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Casa Arraial: Piscina, 3 Suítes, Praia 100m para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 7 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/52329750"
+  },
+  "ref_15951164": {
+    "expectedHostNames": [
+      "Bella",
+      "Bella"
+    ],
+    "host": {
+      "name": "Bella",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/15951164",
+      "verifiedAt": "2026-10-03T23:34:16.408957+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Villa Estrela Chalé (nr 2) para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/15951164"
+  },
+  "ref_1627010943141996934": {
+    "expectedHostNames": [
+      "Lucia",
+      "Lucia"
+    ],
+    "host": {
+      "name": "Lucia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1627010943141996934",
+      "verifiedAt": "2026-10-03T23:34:17.447229+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Arraial d’Ajuda | Casa para 4 P, Piscina e Wi-Fi para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Pedro",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 4 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1627010943141996934"
+  },
+  "ref_4112414": {
+    "expectedHostNames": [
+      "Júnior",
+      "Júnior"
+    ],
+    "host": {
+      "name": "Júnior",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/4112414",
+      "verifiedAt": "2026-10-03T23:34:17.233681+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé em Itacaré (Bahia) para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 6 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/4112414"
+  },
+  "ref_563531540908366859": {
+    "expectedHostNames": [
+      "Laura",
+      "Laura"
+    ],
+    "host": {
+      "name": "Laura",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/563531540908366859",
+      "verifiedAt": "2026-10-03T23:34:17.617044+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Exemplo de avaliação: escolhemos Chalé Águas Calmas, Praia de Itacarézinho para descansar durante a viagem em grupo."
+      },
+      {
+        "name": "Lucas",
+        "rating": 4,
+        "text": "Exemplo de avaliação: o espaço para até 2 hóspedes ajudou a planejar os dias de férias."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/563531540908366859"
+  },
+  "ref_1197977225843002743": {
+    "expectedHostNames": [
+      "Patricia",
+      "Patricia"
+    ],
+    "host": {
+      "name": "Patricia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1197977225843002743",
+      "verifiedAt": "2026-10-03T23:34:19.025093+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1197977225843002743"
+  },
+  "ref_22239854": {
+    "expectedHostNames": [
+      "Itamar Gama",
+      "Itamar Gama"
+    ],
+    "host": {
+      "name": "Itamar Gama",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/22239854",
+      "verifiedAt": "2026-10-03T23:34:18.526251+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/22239854"
+  },
+  "ref_741279599608716337": {
+    "expectedHostNames": [
+      "Luciane",
+      "Luciane"
+    ],
+    "host": {
+      "name": "Luciane",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/741279599608716337",
+      "verifiedAt": "2026-10-03T23:34:19.112277+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/741279599608716337"
+  },
+  "ref_918211601501342484": {
+    "expectedHostNames": [
+      "Izabela",
+      "Izabela"
+    ],
+    "host": {
+      "name": "Izabela",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/918211601501342484",
+      "verifiedAt": "2026-10-03T23:34:20.121003+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/918211601501342484"
+  },
+  "ref_12407566": {
+    "expectedHostNames": [
+      "Claudio",
+      "Claudio"
+    ],
+    "host": {
+      "name": "Claudio",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/12407566",
+      "verifiedAt": "2026-10-03T23:34:20.572335+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/12407566"
+  },
+  "ref_17987444": {
+    "expectedHostNames": [
+      "Diego Tavares",
+      "Diego Tavares"
+    ],
+    "host": {
+      "name": "Diego Tavares",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/17987444",
+      "verifiedAt": "2026-10-03T23:34:20.348953+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/17987444"
+  },
+  "ref_30508256": {
+    "expectedHostNames": [
+      "Bernardo",
+      "Bernardo"
+    ],
+    "host": {
+      "name": "Bernardo",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/30508256",
+      "verifiedAt": "2026-10-03T23:34:21.208189+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/30508256"
+  },
+  "ref_40415041": {
+    "expectedHostNames": [
+      "Maynara",
+      "Maynara"
+    ],
+    "host": {
+      "name": "Maynara",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/40415041",
+      "verifiedAt": "2026-10-03T23:34:21.643180+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/40415041"
+  },
+  "ref_5989690": {
+    "expectedHostNames": [
+      "Marcia",
+      "Marcia"
+    ],
+    "host": {
+      "name": "Marcia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/5989690",
+      "verifiedAt": "2026-10-03T23:34:21.765084+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/5989690"
+  },
+  "ref_1180594489477703547": {
+    "expectedHostNames": [
+      "Walter Rocha",
+      "Walter Rocha"
+    ],
+    "host": {
+      "name": "Walter Rocha",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1180594489477703547",
+      "verifiedAt": "2026-10-03T23:34:22.511176+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1180594489477703547"
+  },
+  "ref_1364774916112300117": {
+    "expectedHostNames": [
+      "Welhome Brasil",
+      "Welhome Brasil"
+    ],
+    "host": {
+      "name": "Welhome Brasil",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1364774916112300117",
+      "verifiedAt": "2026-10-03T23:34:23.072209+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1364774916112300117"
+  },
+  "ref_1572458491944434952": {
+    "expectedHostNames": [
+      "Yuri Abijaude",
+      "Yuri Abijaude"
+    ],
+    "host": {
+      "name": "Yuri Abijaude",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1572458491944434952",
+      "verifiedAt": "2026-10-03T23:34:23.062439+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1572458491944434952"
+  },
+  "ref_732035158083792133": {
+    "expectedHostNames": [
+      "Anfitrião Prime",
+      "Anfitrião Prime"
+    ],
+    "host": {
+      "name": "Anfitrião Prime",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/732035158083792133",
+      "verifiedAt": "2026-10-03T23:34:23.909026+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/732035158083792133"
+  },
+  "ref_8140332": {
+    "expectedHostNames": [
+      "Simon",
+      "Simon"
+    ],
+    "host": {
+      "name": "Simon",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/8140332",
+      "verifiedAt": "2026-10-03T23:34:25.375978+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/8140332"
+  },
+  "ref_1583690591483045089": {
+    "expectedHostNames": [
+      "Mariá Veiga",
+      "Mariá Veiga"
+    ],
+    "host": {
+      "name": "Mariá Veiga",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1583690591483045089",
+      "verifiedAt": "2026-10-03T23:34:24.618903+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1583690591483045089"
+  },
+  "ref_17278553": {
+    "expectedHostNames": [
+      "Stelvio Bruni Rosi",
+      "Stelvio Bruni Rosi"
+    ],
+    "host": {
+      "name": "Stelvio Bruni Rosi",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/17278553",
+      "verifiedAt": "2026-10-03T23:34:25.453299+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/17278553"
+  },
+  "ref_30039065": {
+    "expectedHostNames": [
+      "Wilson",
+      "Wilson"
+    ],
+    "host": {
+      "name": "Wilson",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/30039065",
+      "verifiedAt": "2026-10-03T23:34:25.946252+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/30039065"
+  },
+  "ref_48026016": {
+    "expectedHostNames": [
+      "Pedro",
+      "Pedro"
+    ],
+    "host": {
+      "name": "Pedro",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/48026016",
+      "verifiedAt": "2026-10-03T23:34:26.721762+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/48026016"
+  },
+  "ref_44463721": {
+    "expectedHostNames": [
+      "Maria Beatriz",
+      "Maria Beatriz"
+    ],
+    "host": {
+      "name": "Maria Beatriz",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/44463721",
+      "verifiedAt": "2026-10-03T23:34:26.871589+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/44463721"
+  },
+  "ref_45740695": {
+    "expectedHostNames": [
+      "Bruna",
+      "Bruna"
+    ],
+    "host": {
+      "name": "Bruna",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/45740695",
+      "verifiedAt": "2026-10-03T23:34:27.231739+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/45740695"
+  },
+  "ref_46662335": {
+    "expectedHostNames": [
+      "Walmir",
+      "Walmir"
+    ],
+    "host": {
+      "name": "Walmir",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/46662335",
+      "verifiedAt": "2026-10-03T23:34:28.293066+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/46662335"
+  },
+  "ref_51563499": {
+    "expectedHostNames": [
+      "Ana Paula",
+      "Ana Paula"
+    ],
+    "host": {
+      "name": "Ana Paula",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/51563499",
+      "verifiedAt": "2026-10-03T23:34:28.054961+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/51563499"
+  },
+  "ref_1266907865886182486": {
+    "expectedHostNames": [
+      "Thiago Lima - Imobi Temporada",
+      "Thiago Lima - Imobi Temporada"
+    ],
+    "host": {
+      "name": "Thiago Lima - Imobi Temporada",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1266907865886182486",
+      "verifiedAt": "2026-10-03T23:34:28.499488+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1266907865886182486"
+  },
+  "ref_1292682562473610557": {
+    "expectedHostNames": [
+      "Seazone",
+      "Seazone"
+    ],
+    "host": {
+      "name": "Seazone",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1292682562473610557",
+      "verifiedAt": "2026-10-03T23:34:29.620654+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1292682562473610557"
+  },
+  "ref_16235287": {
+    "expectedHostNames": [
+      "Rustik",
+      "Rustik"
+    ],
+    "host": {
+      "name": "Rustik",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/16235287",
+      "verifiedAt": "2026-10-03T23:34:29.448829+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/16235287"
+  },
+  "ref_1731246497838866922": {
+    "expectedHostNames": [
+      "Adriana",
+      "Adriana"
+    ],
+    "host": {
+      "name": "Adriana",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1731246497838866922",
+      "verifiedAt": "2026-10-03T23:34:29.852828+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1731246497838866922"
+  },
+  "ref_1506673611242446076": {
+    "expectedHostNames": [
+      "Vicente",
+      "Vicente"
+    ],
+    "host": {
+      "name": "Vicente",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/1506673611242446076",
+      "verifiedAt": "2026-10-03T23:34:30.895011+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1506673611242446076"
+  },
+  "ref_3231536": {
+    "expectedHostNames": [
+      "Helinho",
+      "Helinho"
+    ],
+    "host": {
+      "name": "Helinho",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/3231536",
+      "verifiedAt": "2026-10-03T23:34:30.598254+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/3231536"
+  },
+  "ref_42024641": {
+    "expectedHostNames": [
+      "Saback",
+      "Saback"
+    ],
+    "host": {
+      "name": "Saback",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/42024641",
+      "verifiedAt": "2026-10-03T23:34:31.099065+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/42024641"
+  },
+  "ref_826700696631973960": {
+    "expectedHostNames": [
+      "Maria Clotilde",
+      "Maria Clotilde"
+    ],
+    "host": {
+      "name": "Maria Clotilde",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": "",
+      "verified": true,
+      "sourceUrl": "https://www.airbnb.com.br/rooms/826700696631973960",
+      "verifiedAt": "2026-10-03T23:34:32.123858+00:00"
+    },
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "sourceUrl": "https://www.airbnb.com.br/rooms/826700696631973960"
+  }
+}

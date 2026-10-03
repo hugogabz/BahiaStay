@@ -190,7 +190,7 @@ const PropertyDetail = () => {
               {property.sourceUrl?.startsWith('https://www.airbnb.com.br/rooms/') && <a href={property.sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-sm text-[#1A5E63] underline">Ver imóvel no Airbnb</a>}
             </div>
 
-            {property.host && !property.demoReference && (
+            {property.host?.name && !property.demoReference && (
               <div className="mt-6 border-b border-[#e6dfd5] pb-6" data-testid="host-card">
                 <h3 className="font-display font-bold text-lg text-[#1c1c1e]">Conheça o anfitrião</h3>
                 <div className="mt-4 flex items-start gap-4 bg-white border border-[#e6dfd5] rounded-2xl p-5">
@@ -214,9 +214,8 @@ const PropertyDetail = () => {
                         {property.host.name}
                       </h4>
                     </div>
-                    <p className="text-xs text-[#A19585] mt-0.5">
-                      {property.host.since ? `Anfitrião desde ${property.host.since}` : "Ano de início não informado"}
-                    </p>
+                    {property.host.verified && <p className="host-source-note">Nome conferido no anúncio original · <a href={property.host.sourceUrl} target="_blank" rel="noopener noreferrer">Ver fonte no Airbnb ↗</a></p>}
+                    {property.host.since && <p className="text-xs text-[#A19585] mt-0.5">Anfitrião desde {property.host.since}</p>}
                     {property.host.bio && (
                       <p className="text-sm text-[#1c1c1e]/85 mt-3 leading-relaxed">
                         {property.host.bio}
@@ -239,6 +238,7 @@ const PropertyDetail = () => {
                 </div>
               </div>
             )}
+            {!property.host?.name && <div className="host-unconfirmed"><h3>Sobre o anfitrião</h3><p>Os dados do anfitrião deste imóvel ainda não foram confirmados.</p></div>}
 
             <div className="mt-6 border-b border-[#e6dfd5] pb-6">
               <h3 className="font-display font-bold text-lg text-[#1c1c1e]">O que esta casa oferece</h3>
