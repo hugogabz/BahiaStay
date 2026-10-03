@@ -1,0 +1,39 @@
+{
+  "summary": "Frontend-only smoke test of the Bahia Stay vacation rental site. Home page, destination/amenity/price filters, property detail pages (ps-01, il-02, ar-04), booking widget with weekly + first-booking discounts, WhatsApp checkout URL (number 5511981389572 verified), OpenStreetMap iframe embed, floating WhatsApp button, and navbar brand navigation all work correctly. No console errors observed.",
+  "tested_scope": ["frontend", "integration"],
+  "passed": [
+    "Home page loads with navbar, filter sidebar, destination tabs, 10 property cards, promo badges, and footer",
+    "Destination tabs filter correctly: all=10, porto-seguro=3, ilheus=3, arraial-d-ajuda=4 (results-count label updates)",
+    "Amenity filter 'Piscina' narrows to 5 houses; combined with 'Ar-condicionado' = 5; filter-clear-btn resets to 10",
+    "Price range slider renders bounds R$ 300 — R$ 1500 (Chalé Araçaípe R$ 300 confirmed lowest)",
+    "Property detail /casa/ps-01 shows title 'Casa Mirante Taperapuã', gallery, badges, and amenities list containing 'Ar-condicionado', 'TV', 'Fogão', 'Geladeira', 'Wi-Fi', 'Piscina', 'Churrasqueira', 'Estacionamento', 'Cozinha equipada', 'Vista para o mar'",
+    "property-modal-leaflet-map iframe src is https://www.openstreetmap.org/export/embed.html with bbox and marker=-16.418,-39.059 matching property coords",
+    "Booking widget: 7 nights × R$780 = R$5.460 → Pacote Semana aplicado R$2.800 (property-modal-weekly-discount-badge appears); toggling first-booking adds -10% → R$2.520 (property-modal-first-booking-discount-badge appears); booking-total updates correctly",
+    "WhatsApp checkout opens https://wa.me/5511981389572?text=... in new tab with property title, check-in, check-out, guests, nights, subtotal, weekly discount, 10% first-booking discount, and total",
+    "Clicking checkout without dates shows toast error 'Selecione as datas de check-in e check-out'",
+    "floating-whatsapp-btn opens wa.me URL with number 5511981389572",
+    "navbar-brand-logo returns to '/'",
+    "il-02 (Loft Cacau & Mar) and ar-04 (Villa Tropical Ajuda) detail pages load with map and no console errors",
+    "No console errors / pageerrors observed on home and 3 detail pages"
+  ],
+  "failed": [
+    {
+      "area": "testid naming (spec vs code)",
+      "issue": "Review spec mentions `property-card-1` style (numeric), but also references `property-card-ps-01` style elsewhere. Actual code uses numeric indices (property-card-1 .. property-card-10). Not a bug, just a doc/spec inconsistency; functionality works and cards are clickable.",
+      "evidence": "Home testids: property-card-1, property-card-image-carousel-1, property-card-heart-btn-1, …",
+      "priority": "LOW"
+    },
+    {
+      "area": "testid naming (date inputs)",
+      "issue": "Review spec references booking-checkin-input / booking-checkout-input, but actual testids are `booking-checkin` and `booking-checkout`. Inputs function correctly; purely a naming mismatch to flag for consistency.",
+      "evidence": "Enumeration on /casa/ps-01 lists booking-checkin and booking-checkout (type=INPUT); no *-input variants exist.",
+      "priority": "LOW"
+    }
+  ],
+  "action_items": [
+    "Optional: align data-testid names with the review spec (property-card-<id>, booking-checkin-input, booking-checkout-input) for easier automated verification, or update the spec. Core functionality already works."
+  ],
+  "success_rate": {"backend": "N/A (skipped per request)", "frontend": "100% (all critical flows pass)"},
+  "retest_needed": false,
+  "full_testing_deferred": true
+}

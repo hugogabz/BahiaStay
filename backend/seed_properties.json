@@ -1,0 +1,4148 @@
+[
+  {
+    "id": "ps-01",
+    "title": "Casa Mirante Taperapuã",
+    "destination": "porto-seguro",
+    "neighborhood": "Praia de Taperapuã",
+    "tagline": "Seu refúgio perto da praia para até 8 hóspedes",
+    "description": "Casa Mirante Taperapuã é uma opção de temporada pensada para quem quer aproveitar a Praia de Taperapuã, em Porto Seguro. O espaço acomoda até 8 hóspedes, com 3 quarto(s), 5 cama(s) e 2 banheiro(s). Conta com piscina privativa, churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 405.6,
+    "weeklyPrice": 2028.0,
+    "weeklyPackagePromo": 1456.0,
+    "rating": 4.96,
+    "reviews": 142,
+    "guests": 8,
+    "bedrooms": 3,
+    "beds": 5,
+    "baths": 2.0,
+    "coords": {
+      "lat": -16.418,
+      "lng": -39.059
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949700/bahia-stay/properties/ps-01/ph_69d4ab92e93c.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949745/bahia-stay/properties/ps-01/ph_4ab5c0fb7724.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949741/bahia-stay/properties/ps-01/ph_1bd858aadb86.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ps-02",
+    "title": "Chalé Pataxó Beach",
+    "destination": "porto-seguro",
+    "neighborhood": "Praia de Mundaí",
+    "tagline": "Seu refúgio perto da praia para até 2 hóspedes",
+    "description": "Chalé Pataxó Beach é uma opção de temporada pensada para quem quer aproveitar a Praia de Mundaí, em Porto Seguro. O espaço acomoda até 2 hóspedes, com 1 quarto(s), 1 cama(s) e 1 banheiro(s). Conta com estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 166.4,
+    "weeklyPrice": 780.0,
+    "weeklyPackagePromo": 520.0,
+    "rating": 4.84,
+    "reviews": 89,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "coords": {
+      "lat": -16.4015,
+      "lng": -39.0712
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "parking"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949738/bahia-stay/properties/ps-02/ph_7aacc4e3bd7c.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949748/bahia-stay/properties/ps-02/ph_05c2ae1cef00.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949766/bahia-stay/properties/ps-02/ph_b256e1edaa9c.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ps-03",
+    "title": "Villa Coroa Vermelha",
+    "destination": "porto-seguro",
+    "neighborhood": "Coroa Vermelha",
+    "tagline": "Seu refúgio perto da praia para até 10 hóspedes",
+    "description": "Villa Coroa Vermelha é uma opção de temporada pensada para quem quer aproveitar a região de Coroa Vermelha, no litoral de Santa Cruz Cabrália. O espaço acomoda até 10 hóspedes, com 4 quarto(s), 6 cama(s) e 4 banheiro(s). Conta com piscina privativa, churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 769.6,
+    "weeklyPrice": 4420.0,
+    "weeklyPackagePromo": 3380.0,
+    "rating": 4.99,
+    "reviews": 211,
+    "guests": 10,
+    "bedrooms": 4,
+    "beds": 6,
+    "baths": 4,
+    "coords": {
+      "lat": -16.3376,
+      "lng": -39.0486
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen",
+      "ocean",
+      "beach"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949759/bahia-stay/properties/ps-03/ph_9a7b8a4b7afe.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949763/bahia-stay/properties/ps-03/ph_12dcad15ba3f.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949755/bahia-stay/properties/ps-03/ph_5ad384614a38.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "il-01",
+    "title": "Casa Olivença Beach",
+    "destination": "ilheus",
+    "neighborhood": "Praia de Olivença",
+    "tagline": "Seu refúgio perto da praia para até 6 hóspedes",
+    "description": "Casa Olivença Beach é uma opção de temporada pensada para quem quer aproveitar as praias de Olivença, no litoral sul de Ilhéus. O espaço acomoda até 6 hóspedes, com 3 quarto(s), 4 cama(s) e 2 banheiro(s). Conta com piscina privativa, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 322.4,
+    "weeklyPrice": 1612.0,
+    "weeklyPackagePromo": 1144.0,
+    "rating": 4.91,
+    "reviews": 76,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2,
+    "coords": {
+      "lat": -14.9389,
+      "lng": -39.0282
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949775/bahia-stay/properties/il-01/ph_7a3e176fded4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949779/bahia-stay/properties/il-01/ph_9319baad9023.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949783/bahia-stay/properties/il-01/ph_2e05c3a27d91.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "il-02",
+    "title": "Loft Cacau & Mar",
+    "destination": "ilheus",
+    "neighborhood": "Praia dos Milionários",
+    "tagline": "Seu refúgio perto da praia para até 2 hóspedes",
+    "description": "Loft Cacau & Mar é uma opção de temporada pensada para quem quer aproveitar a Praia dos Milionários, em Ilhéus. O espaço acomoda até 2 hóspedes, com 1 quarto(s), 1 cama(s) e 1 banheiro(s). Conta com ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 197.6,
+    "weeklyPrice": 1040.0,
+    "weeklyPackagePromo": 702.0,
+    "rating": 4.88,
+    "reviews": 54,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "coords": {
+      "lat": -14.8249,
+      "lng": -39.0244
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "washer"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950180/bahia-stay/properties/il-02/ph_3597e6624f9c.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949806/bahia-stay/properties/il-02/ph_2d4941ab8762.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949799/bahia-stay/properties/il-02/ph_e3e325888346.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "il-03",
+    "title": "Casarão Jorge Amado",
+    "destination": "ilheus",
+    "neighborhood": "Centro Histórico",
+    "tagline": "Seu refúgio perto da praia para até 7 hóspedes",
+    "description": "Casarão Jorge Amado é uma opção de temporada pensada para quem quer aproveitar o centro histórico de Ilhéus e a Praia da Avenida. O espaço acomoda até 7 hóspedes, com 4 quarto(s), 5 cama(s) e 3 banheiro(s). Conta com estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 280.8,
+    "weeklyPrice": 1404.0,
+    "weeklyPackagePromo": 988.0,
+    "rating": 4.82,
+    "reviews": 63,
+    "guests": 7,
+    "bedrooms": 4,
+    "beds": 5,
+    "baths": 3,
+    "coords": {
+      "lat": -14.7936,
+      "lng": -39.0463
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "washer",
+      "parking"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949795/bahia-stay/properties/il-03/ph_c75e5f20717e.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949802/bahia-stay/properties/il-03/ph_75ce5482f4ca.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949820/bahia-stay/properties/il-03/ph_677ffd51498c.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ar-01",
+    "title": "Villa Mucugê",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Rua do Mucugê",
+    "tagline": "Seu refúgio perto da praia para até 6 hóspedes",
+    "description": "Villa Mucugê é uma opção de temporada pensada para quem quer aproveitar a Rua do Mucugê e a Praia do Mucugê, em Arraial d’Ajuda. O espaço acomoda até 6 hóspedes, com 3 quarto(s), 4 cama(s) e 2 banheiro(s). Conta com piscina privativa, churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 462.8,
+    "weeklyPrice": 2288.0,
+    "weeklyPackagePromo": 1612.0,
+    "rating": 4.97,
+    "reviews": 167,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2,
+    "coords": {
+      "lat": -16.4871,
+      "lng": -39.0772
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "washer"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949816/bahia-stay/properties/ar-01/ph_e4e2e4ed6477.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949813/bahia-stay/properties/ar-01/ph_d7511fe1aba9.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949824/bahia-stay/properties/ar-01/ph_2532c0304cb5.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ar-02",
+    "title": "Casa Pitinga",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Praia de Pitinga",
+    "tagline": "Seu refúgio perto da praia para até 5 hóspedes",
+    "description": "Casa Pitinga é uma opção de temporada pensada para quem quer aproveitar a Praia de Pitinga, em Arraial d’Ajuda. O espaço acomoda até 5 hóspedes, com 2 quarto(s), 3 cama(s) e 2 banheiro(s). Conta com churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 582.4,
+    "weeklyPrice": 3068.0,
+    "weeklyPackagePromo": 2184.0,
+    "rating": 4.95,
+    "reviews": 98,
+    "guests": 5,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "coords": {
+      "lat": -16.5021,
+      "lng": -39.0802
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "bbq",
+      "parking",
+      "kitchen",
+      "ocean",
+      "beach"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949835/bahia-stay/properties/ar-02/ph_3839e8f9b570.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949838/bahia-stay/properties/ar-02/ph_e17316945060.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949836/bahia-stay/properties/ar-02/ph_0d860e6ad41d.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ar-03",
+    "title": "Chalé Araçaípe",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Praia de Araçaípe",
+    "tagline": "Seu refúgio perto da praia para até 3 hóspedes",
+    "description": "Chalé Araçaípe é uma opção de temporada pensada para quem quer aproveitar a Praia de Araçaípe, em Arraial d’Ajuda. O espaço acomoda até 3 hóspedes, com 1 quarto(s), 2 cama(s) e 1 banheiro(s). Conta com Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 780.0,
+    "weeklyPackagePromo": 520.0,
+    "rating": 4.72,
+    "reviews": 41,
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "coords": {
+      "lat": -16.4752,
+      "lng": -39.0671
+    },
+    "amenities": [
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949832/bahia-stay/properties/ar-03/ph_49d494cf9f54.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949844/bahia-stay/properties/ar-03/ph_223f3a9da8ab.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949854/bahia-stay/properties/ar-03/ph_91c528df6622.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ar-04",
+    "title": "Villa Tropical Ajuda",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Centro de Arraial",
+    "tagline": "Seu refúgio perto da praia para até 8 hóspedes",
+    "description": "Villa Tropical Ajuda é uma opção de temporada pensada para quem quer aproveitar o centro de Arraial d’Ajuda, com acesso às praias de Mucugê e Pitinga. O espaço acomoda até 8 hóspedes, com 4 quarto(s), 5 cama(s) e 3 banheiro(s). Conta com piscina privativa, churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 509.6,
+    "weeklyPrice": 2600.0,
+    "weeklyPackagePromo": 1820.0,
+    "rating": 4.93,
+    "reviews": 128,
+    "guests": 8,
+    "bedrooms": 4,
+    "beds": 5,
+    "baths": 3,
+    "coords": {
+      "lat": -16.4885,
+      "lng": -39.0836
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "washer"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949847/bahia-stay/properties/ar-04/ph_e6d56eb3455f.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949851/bahia-stay/properties/ar-04/ph_49adbe4e5547.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949860/bahia-stay/properties/ar-04/ph_09a9c6f3f7d6.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "je-01",
+    "title": "Casa Duna Pôr do Sol",
+    "destination": "jericoacoara",
+    "neighborhood": "Vila de Jeri · 2 min da Duna",
+    "tagline": "Seu refúgio perto da praia para até 6 hóspedes",
+    "description": "Casa Duna Pôr do Sol é uma opção de temporada pensada para quem quer aproveitar a vila de Jericoacoara e sua praia principal. O espaço acomoda até 6 hóspedes, com 3 quarto(s), 4 cama(s) e 2 banheiro(s). Conta com churrasqueira, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 374.4,
+    "weeklyPrice": 1872.0,
+    "weeklyPackagePromo": 1352.0,
+    "rating": 4.95,
+    "reviews": 118,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2,
+    "coords": {
+      "lat": -2.7975,
+      "lng": -40.5137
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "bbq",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949871/bahia-stay/properties/je-01/ph_73aa9e610df0.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949863/bahia-stay/properties/je-01/ph_e203aee44797.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949867/bahia-stay/properties/je-01/ph_39cb3da6dd46.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "fn-01",
+    "title": "Chalé Baía dos Porcos",
+    "destination": "fernando-noronha",
+    "neighborhood": "Vila dos Remédios",
+    "tagline": "Seu refúgio perto da praia para até 2 hóspedes",
+    "description": "Chalé Baía dos Porcos é uma opção de temporada pensada para quem quer aproveitar a Vila dos Remédios e a Praia do Cachorro, em Fernando de Noronha. O espaço acomoda até 2 hóspedes, com 1 quarto(s), 1 cama(s) e 1 banheiro(s). Conta com ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 754.0,
+    "weeklyPrice": 4576.0,
+    "weeklyPackagePromo": 3224.0,
+    "rating": 4.99,
+    "reviews": 87,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "coords": {
+      "lat": -3.8549,
+      "lng": -32.4234
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "ocean",
+      "beach"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950186/bahia-stay/properties/fn-01/ph_9fb77a8e974b.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949884/bahia-stay/properties/fn-01/ph_0e015e1db8b2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949878/bahia-stay/properties/fn-01/ph_7e69542ff84a.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "bz-01",
+    "title": "Villa Geribá Beach",
+    "destination": "buzios",
+    "neighborhood": "Praia de Geribá",
+    "tagline": "Seu refúgio perto da praia para até 7 hóspedes",
+    "description": "Villa Geribá Beach é uma opção de temporada pensada para quem quer aproveitar a Praia de Geribá, em Búzios. O espaço acomoda até 7 hóspedes, com 3 quarto(s), 5 cama(s) e 3 banheiro(s). Conta com piscina privativa, churrasqueira, estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 613.6,
+    "weeklyPrice": 3224.0,
+    "weeklyPackagePromo": 2288.0,
+    "rating": 4.94,
+    "reviews": 143,
+    "guests": 7,
+    "bedrooms": 3,
+    "beds": 5,
+    "baths": 3,
+    "coords": {
+      "lat": -22.7797,
+      "lng": -41.9029
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "washer"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949888/bahia-stay/properties/bz-01/ph_4be38d3b5d53.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949894/bahia-stay/properties/bz-01/ph_56e310b20ee6.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949904/bahia-stay/properties/bz-01/ph_98dd014bd7bc.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "mg-01",
+    "title": "Bangalô Caribe Brasileiro",
+    "destination": "maragogi",
+    "neighborhood": "Praia de Antunes",
+    "tagline": "Seu refúgio perto da praia para até 4 hóspedes",
+    "description": "Bangalô Caribe Brasileiro é uma opção de temporada pensada para quem quer aproveitar a Praia de Antunes, em Maragogi. O espaço acomoda até 4 hóspedes, com 2 quarto(s), 3 cama(s) e 2 banheiro(s). Conta com ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 280.8,
+    "weeklyPrice": 1456.0,
+    "weeklyPackagePromo": 988.0,
+    "rating": 4.9,
+    "reviews": 72,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "coords": {
+      "lat": -9.0122,
+      "lng": -35.2225
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "ocean",
+      "beach"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949898/bahia-stay/properties/mg-01/ph_d3682ce28446.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949901/bahia-stay/properties/mg-01/ph_f5f6e62e768e.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949912/bahia-stay/properties/mg-01/ph_a37a7bfe7cef.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "fl-01",
+    "title": "Casa Praia Mole",
+    "destination": "florianopolis",
+    "neighborhood": "Praia Mole",
+    "tagline": "Seu refúgio perto da praia para até 6 hóspedes",
+    "description": "Casa Praia Mole é uma opção de temporada pensada para quem quer aproveitar a Praia Mole e a Lagoa da Conceição, em Florianópolis. O espaço acomoda até 6 hóspedes, com 3 quarto(s), 4 cama(s) e 2 banheiro(s). Conta com estacionamento, ar-condicionado, Wi-Fi e ambientes para descansar entre um passeio e outro. Ideal para dias de praia, refeições em companhia e uma estadia com mais liberdade. Consulte as datas no calendário e compare a diária com o pacote semanal.",
+    "pricePerNight": 353.6,
+    "weeklyPrice": 1768.0,
+    "weeklyPackagePromo": 1248.0,
+    "rating": 4.88,
+    "reviews": 101,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2,
+    "coords": {
+      "lat": -27.6013,
+      "lng": -48.4283
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "kitchen",
+      "parking",
+      "washer",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949915/bahia-stay/properties/fl-01/ph_6d4942a94996.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949918/bahia-stay/properties/fl-01/ph_53da6a59345c.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949921/bahia-stay/properties/fl-01/ph_61959d369ce3.jpg"
+    ],
+    "host": {
+      "name": "Família Fonseca",
+      "bio": "Anfitriões há anos nas melhores praias do Brasil.",
+      "photo": null,
+      "photo_storage_path": null,
+      "since": 2019,
+      "languages": [
+        "Português",
+        "Inglês"
+      ],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1766068988505896040",
+    "title": "Apartamento - Costa Azul",
+    "destination": "salvador",
+    "neighborhood": "Costa Azul · LIT 760",
+    "tagline": "Vista para o mar e praia a cerca de 250 m",
+    "description": "Apartamento no Costa Azul, em Salvador, para até quatro pessoas. Tem quarto climatizado, cozinha equipada e sala com sofá-cama. O edifício oferece piscina de borda infinita, academia, coworking e lavanderia compartilhada. O anúncio informa proximidade da praia e do Centro de Convenções.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 5.0,
+    "reviews": 5,
+    "guests": 4,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.997,
+      "lng": -38.451
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949926/bahia-stay/properties/ref_1766068988505896040/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949935/bahia-stay/properties/ref_1766068988505896040/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949929/bahia-stay/properties/ref_1766068988505896040/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949932/bahia-stay/properties/ref_1766068988505896040/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949950/bahia-stay/properties/ref_1766068988505896040/05.jpg"
+    ],
+    "host": {
+      "name": "Odilon",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1387661319864956211",
+    "title": "Studio Novo | Praia + Centro Convenções | Garagem",
+    "destination": "salvador",
+    "neighborhood": "Boca do Rio · Centro de Convenções",
+    "tagline": "Studio para casal a cerca de 750 m da praia",
+    "description": "Studio em Salvador com cama de casal, ar-condicionado, Smart TV e cozinha equipada. O anúncio situa a acomodação a aproximadamente 750 metros da Praia da Boca do Rio e do Centro de Convenções. Piscina, academia, coworking e garagem seguem as regras do condomínio. Check-in após 14h e saída até 12h.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.93,
+    "reviews": 201,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.981,
+      "lng": -38.437
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949946/bahia-stay/properties/ref_1387661319864956211/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949941/bahia-stay/properties/ref_1387661319864956211/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949943/bahia-stay/properties/ref_1387661319864956211/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949957/bahia-stay/properties/ref_1387661319864956211/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949963/bahia-stay/properties/ref_1387661319864956211/05.jpg"
+    ],
+    "host": {
+      "name": "Ricardo",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_1493121924838455579",
+    "title": "Acomodação na comunidade do solar do unhao",
+    "destination": "salvador",
+    "neighborhood": "Gamboa de Baixo · Solar do Unhão",
+    "tagline": "Varanda com vista para a Baía de Todos-os-Santos",
+    "description": "Acomodação para duas pessoas na comunidade do Solar do Unhão, próxima ao Museu de Arte Moderna de Salvador. Tem cozinha, climatização e varanda voltada para o mar. A chegada é acompanhada pela equipe a partir de um ponto de encontro, com caminhada e degraus. O anúncio limita o check-in às 21h e não permite festas.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.98,
+    "reviews": 87,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.982,
+      "lng": -38.522
+    },
+    "amenities": [
+      "wifi",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949960/bahia-stay/properties/ref_1493121924838455579/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949955/bahia-stay/properties/ref_1493121924838455579/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949970/bahia-stay/properties/ref_1493121924838455579/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949976/bahia-stay/properties/ref_1493121924838455579/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949973/bahia-stay/properties/ref_1493121924838455579/05.jpg"
+    ],
+    "host": {
+      "name": "Alex",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_1764860011054934847",
+    "title": "Chalé com Hidromassagem Aquecida Privativa + Praia",
+    "destination": "ilheus",
+    "neighborhood": "Litoral de Ilhéus · região aproximada",
+    "tagline": "Chalé com hidromassagem privativa perto da praia",
+    "description": "Chalé em Ilhéus para até três hóspedes, com quarto, cozinha e hidromassagem aquecida privativa. O anúncio informa distância de cerca de 100 metros da praia, ambientes climatizados e estacionamento em condomínio com portaria. A proposta é uma estadia reservada para casais, com opção de decoração comemorativa combinada à parte.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 5.0,
+    "reviews": 6,
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1.0,
+    "coords": {
+      "lat": -14.81,
+      "lng": -39.03
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949980/bahia-stay/properties/ref_1764860011054934847/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949986/bahia-stay/properties/ref_1764860011054934847/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949989/bahia-stay/properties/ref_1764860011054934847/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949995/bahia-stay/properties/ref_1764860011054934847/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790949992/bahia-stay/properties/ref_1764860011054934847/05.jpg"
+    ],
+    "host": {
+      "name": "Emerson",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1363701261158839358",
+    "title": "Romântica cabana pé na areia na Bahia",
+    "destination": "belmonte",
+    "neighborhood": "Litoral de Belmonte · região aproximada",
+    "tagline": "Cabana à beira-mar para uma viagem a dois",
+    "description": "Cabana para duas pessoas no litoral de Belmonte, com cama queen, cozinha e acesso à praia. O projeto utiliza madeira e decoração simples para valorizar o contato com a paisagem. O anúncio informa estacionamento, Wi-Fi e piscina entre as comodidades. A localização pública é aproximada; o endereço completo depende da reserva na plataforma de origem.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 5.0,
+    "reviews": 34,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1.0,
+    "coords": {
+      "lat": -15.864,
+      "lng": -38.879
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "beach"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950001/bahia-stay/properties/ref_1363701261158839358/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950007/bahia-stay/properties/ref_1363701261158839358/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950010/bahia-stay/properties/ref_1363701261158839358/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950004/bahia-stay/properties/ref_1363701261158839358/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950016/bahia-stay/properties/ref_1363701261158839358/05.jpg"
+    ],
+    "host": {
+      "name": "Ricardo Guilherme Kurpan",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1265176684556864251",
+    "title": "Apto Taperapuan 150m da Praia 3",
+    "destination": "porto-seguro",
+    "neighborhood": "Taperapuã · Triângulo da Embaúba",
+    "tagline": "Apartamento com três quartos a cerca de 150 m da praia",
+    "description": "Apartamento em Taperapuã, Porto Seguro, para até sete pessoas. São três quartos, incluindo uma suíte. O condomínio dispõe de piscina e churrasqueira. A descrição original informa aproximadamente 150 metros até a praia e proximidade do Axé Moi, de mercados e restaurantes da orla norte.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.87,
+    "reviews": 63,
+    "guests": 7,
+    "bedrooms": 3,
+    "beds": 6,
+    "baths": 2.0,
+    "coords": {
+      "lat": -16.393,
+      "lng": -39.039
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950019/bahia-stay/properties/ref_1265176684556864251/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950024/bahia-stay/properties/ref_1265176684556864251/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950021/bahia-stay/properties/ref_1265176684556864251/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950029/bahia-stay/properties/ref_1265176684556864251/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950035/bahia-stay/properties/ref_1265176684556864251/05.jpg"
+    ],
+    "host": {
+      "name": "Somar Hospedagem",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_1513413581453337258",
+    "title": "Vila Mundaí · 2 quartos c/ suíte a 500m da praia.",
+    "destination": "porto-seguro",
+    "neighborhood": "Mundaí · Vila Mundaí",
+    "tagline": "Dois quartos e piscina a cerca de 500 m da Praia de Mundaí",
+    "description": "Apartamento térreo em Porto Seguro para até sete pessoas. Tem dois quartos, uma suíte, sofá-cama, dois banheiros e cozinha equipada. A área comum oferece piscina e churrasqueiras. O anúncio informa cerca de 500 metros até a Praia de Mundaí, perto do Toa Toa e de serviços do bairro. Itens de higiene pessoal devem ser levados pelos hóspedes.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 5.0,
+    "reviews": 25,
+    "guests": 7,
+    "bedrooms": 2,
+    "beds": 5,
+    "baths": 2.0,
+    "coords": {
+      "lat": -16.412,
+      "lng": -39.047
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950032/bahia-stay/properties/ref_1513413581453337258/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950037/bahia-stay/properties/ref_1513413581453337258/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950044/bahia-stay/properties/ref_1513413581453337258/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950053/bahia-stay/properties/ref_1513413581453337258/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950047/bahia-stay/properties/ref_1513413581453337258/05.jpg"
+    ],
+    "host": {
+      "name": "Max Benjamin",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_52329750",
+    "title": "Casa Arraial: Piscina, 3 Suítes, Praia 100m",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Arraial d’Ajuda · região da praia",
+    "tagline": "Três suítes e piscina privativa perto do mar",
+    "description": "Casa em Arraial d’Ajuda para até sete hóspedes, com três suítes climatizadas. Tem piscina privativa, área gourmet com churrasqueira e construção em dois pavimentos. O anúncio descreve um ambiente cercado de natureza e acesso à praia a cerca de 100 metros. O mapa desta demonstração indica somente a região.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.96,
+    "reviews": 50,
+    "guests": 7,
+    "bedrooms": 3,
+    "beds": 3,
+    "baths": 3.0,
+    "coords": {
+      "lat": -16.502,
+      "lng": -39.077
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac",
+      "washer"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950050/bahia-stay/properties/ref_52329750/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950059/bahia-stay/properties/ref_52329750/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950062/bahia-stay/properties/ref_52329750/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950064/bahia-stay/properties/ref_52329750/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950067/bahia-stay/properties/ref_52329750/05.jpg"
+    ],
+    "host": {
+      "name": "Cynthia",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_15951164",
+    "title": "Villa Estrela Chalé (nr 2)",
+    "destination": "itacare",
+    "neighborhood": "Praia da Concha",
+    "tagline": "Bangalô com varanda e jardim tropical perto da Concha",
+    "description": "Bangalô em Itacaré para duas pessoas, com cozinha, quarto, banheiro e varanda com rede. O anúncio informa aproximadamente 100 metros até a Praia da Concha e acesso a lojas e restaurantes. A propriedade valoriza um jardim tropical, oferecendo também atividades de yoga e apoio para organizar passeios e aulas de surf.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.74,
+    "reviews": 92,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1.0,
+    "coords": {
+      "lat": -14.276,
+      "lng": -38.989
+    },
+    "amenities": [
+      "wifi",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950076/bahia-stay/properties/ref_15951164/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950074/bahia-stay/properties/ref_15951164/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950079/bahia-stay/properties/ref_15951164/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950081/bahia-stay/properties/ref_15951164/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950089/bahia-stay/properties/ref_15951164/05.jpg"
+    ],
+    "host": {
+      "name": "Bella",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1627010943141996934",
+    "title": "Arraial d’Ajuda | Casa para 4 P, Piscina e Wi-Fi",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Arraial d’Ajuda · condomínio",
+    "tagline": "Casa para quatro com lazer de condomínio",
+    "description": "Casa de dois pavimentos em Arraial d’Ajuda, com uma suíte, banheiro social, cozinha equipada e churrasqueira privativa. Acomoda até quatro pessoas. O condomínio oferece piscinas, sauna, jardins, academia e estacionamento. A descrição informa acesso às praias e à região da Rua do Mucugê, sem divulgar um endereço exato.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 5.0,
+    "reviews": 3,
+    "guests": 4,
+    "bedrooms": 1,
+    "beds": 3,
+    "baths": 2.0,
+    "coords": {
+      "lat": -16.486,
+      "lng": -39.086
+    },
+    "amenities": [
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen",
+      "tv",
+      "ac"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950086/bahia-stay/properties/ref_1627010943141996934/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950093/bahia-stay/properties/ref_1627010943141996934/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950095/bahia-stay/properties/ref_1627010943141996934/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950104/bahia-stay/properties/ref_1627010943141996934/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950101/bahia-stay/properties/ref_1627010943141996934/05.jpg"
+    ],
+    "host": {
+      "name": "Lucia",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_4112414",
+    "title": "Chalé em Itacaré (Bahia)",
+    "destination": "itacare",
+    "neighborhood": "Alto da Boa Vista · Tele-Bahia",
+    "tagline": "Chalé com vista da cidade e mar ao fundo",
+    "description": "Chalé em Itacaré para até seis pessoas, localizado no Alto da Boa Vista, em área de proteção ambiental próxima ao centro. Oferece vista da cidade e do mar ao fundo. O mezanino, acessado por escada em caracol, abriga camas de solteiro. Há dois banheiros e um lavabo. Consulte também as ressalvas dos hóspedes sobre manutenção e estrutura.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.24,
+    "reviews": 21,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2.5,
+    "coords": {
+      "lat": -14.288,
+      "lng": -39.006
+    },
+    "amenities": [
+      "wifi",
+      "parking",
+      "kitchen",
+      "tv"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950110/bahia-stay/properties/ref_4112414/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950107/bahia-stay/properties/ref_4112414/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950117/bahia-stay/properties/ref_4112414/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950120/bahia-stay/properties/ref_4112414/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950123/bahia-stay/properties/ref_4112414/05.jpg"
+    ],
+    "host": {
+      "name": "Júnior",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "photo_storage_path": null,
+      "since": null,
+      "languages": [],
+      "response_time": ""
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_563531540908366859",
+    "title": "Chalé Águas Calmas, Praia de Itacarézinho",
+    "destination": "itacare",
+    "neighborhood": "Região de Itacarézinho",
+    "tagline": "Chalé junto ao lago e à Mata Atlântica",
+    "description": "Chalé para duas pessoas, com vista para um lago e ambiente cercado por vegetação. Tem banheira, Wi-Fi, cozinha, frigobar e ventilador. O anúncio situa a propriedade a cerca de 1,2 km de Itacarézinho e 2 km da Engenhoca. A proposta é descanso em área de preservação, a aproximadamente 13 km de Itacaré.",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 1092.0,
+    "weeklyPackagePromo": 1092.0,
+    "rating": 4.93,
+    "reviews": 60,
+    "guests": 2,
+    "bedrooms": 2,
+    "beds": 1,
+    "baths": 1.0,
+    "coords": {
+      "lat": -14.384,
+      "lng": -39.049
+    },
+    "amenities": [
+      "wifi",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950127/bahia-stay/properties/ref_563531540908366859/01.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950141/bahia-stay/properties/ref_563531540908366859/02.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950145/bahia-stay/properties/ref_563531540908366859/03.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950135/bahia-stay/properties/ref_563531540908366859/04.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1790950138/bahia-stay/properties/ref_563531540908366859/05.jpg"
+    ],
+    "host": {
+      "name": "Laura",
+      "bio": "Anfitrião do anúncio de referência. Este site é uma demonstração independente.",
+      "photo": "",
+      "since": "",
+      "response_time": "",
+      "languages": []
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1197977225843002743",
+    "title": "Casa Arraial Pitinga",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Pitinga",
+    "tagline": "Acomodação inteira para até 11 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 11 hóspedes. São 4 quartos, 7 camas e 4.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 430,
+    "weeklyPrice": 3010,
+    "weeklyPackagePromo": 2580,
+    "priceStatus": "illustrative",
+    "rating": 5.0,
+    "reviews": 6,
+    "guests": 11,
+    "bedrooms": 4,
+    "beds": 7,
+    "baths": 4.5,
+    "coords": {
+      "lat": -16.5068,
+      "lng": -39.0772
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056391/bahia-stay/references/1197977225843002743/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056396/bahia-stay/references/1197977225843002743/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056399/bahia-stay/references/1197977225843002743/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056403/bahia-stay/references/1197977225843002743/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056407/bahia-stay/references/1197977225843002743/5.jpg"
+    ],
+    "host": {
+      "name": "Patricia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": ""
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-05",
+        "check_out": "2026-11-08"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1197977225843002743",
+    "sourceVerifiedAt": "2026-10-03T19:34:23.946155+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_22239854",
+    "title": "Casa c/ Piscina (compartilhada) | Arraial d’Ajuda",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Arraial d’Ajuda",
+    "tagline": "Acomodação inteira para até 7 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 7 hóspedes. São 2 quartos, 5 camas e 2 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 330,
+    "weeklyPrice": 2310,
+    "weeklyPackagePromo": 1980,
+    "priceStatus": "illustrative",
+    "rating": 4.91,
+    "reviews": 127,
+    "guests": 7,
+    "bedrooms": 2,
+    "beds": 5,
+    "baths": 2.0,
+    "coords": {
+      "lat": -16.4887,
+      "lng": -39.0787
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056413/bahia-stay/references/22239854/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056417/bahia-stay/references/22239854/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056421/bahia-stay/references/22239854/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056412/bahia-stay/references/22239854/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056415/bahia-stay/references/22239854/5.jpg"
+    ],
+    "host": {
+      "name": "Itamar Gama",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-09"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/22239854",
+    "sourceVerifiedAt": "2026-10-03T19:34:24.746223+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_741279599608716337",
+    "title": "A joia da Pitinga | Piscina+churrasqueira privativ",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Pitinga",
+    "tagline": "Acomodação inteira para até 8 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 8 hóspedes. São 3 quartos, 5 camas e 3.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 360,
+    "weeklyPrice": 2520,
+    "weeklyPackagePromo": 2160,
+    "priceStatus": "illustrative",
+    "rating": 5.0,
+    "reviews": 89,
+    "guests": 8,
+    "bedrooms": 3,
+    "beds": 5,
+    "baths": 3.5,
+    "coords": {
+      "lat": -16.5035,
+      "lng": -39.0786
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056394/bahia-stay/references/741279599608716337/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056397/bahia-stay/references/741279599608716337/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056401/bahia-stay/references/741279599608716337/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056404/bahia-stay/references/741279599608716337/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056409/bahia-stay/references/741279599608716337/5.jpg"
+    ],
+    "host": {
+      "name": "Luciane",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-10"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/741279599608716337",
+    "sourceVerifiedAt": "2026-10-03T19:34:24.302665+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_918211601501342484",
+    "title": "Casa BelaBahia•Piscina de Resort•3 Suítes •Pitinga",
+    "destination": "arraial-d-ajuda",
+    "neighborhood": "Pitinga",
+    "tagline": "Acomodação inteira para até 12 hóspedes",
+    "description": "Acomodação inteira em Arraial d'Ajuda, com capacidade para 12 hóspedes. São 3 quartos, 8 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 430,
+    "weeklyPrice": 3010,
+    "weeklyPackagePromo": 2580,
+    "priceStatus": "illustrative",
+    "rating": 4.97,
+    "reviews": 64,
+    "guests": 12,
+    "bedrooms": 3,
+    "beds": 8,
+    "baths": 3.0,
+    "coords": {
+      "lat": -16.506,
+      "lng": -39.0766
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056379/bahia-stay/references/918211601501342484/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056378/bahia-stay/references/918211601501342484/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056381/bahia-stay/references/918211601501342484/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056385/bahia-stay/references/918211601501342484/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056388/bahia-stay/references/918211601501342484/5.jpg"
+    ],
+    "host": {
+      "name": "Izabela",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-11"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/918211601501342484",
+    "sourceVerifiedAt": "2026-10-03T19:34:23.366236+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_12407566",
+    "title": "casa Geriba Buzios condo",
+    "destination": "buzios",
+    "neighborhood": "Geribá",
+    "tagline": "Acomodação inteira para até 8 hóspedes",
+    "description": "Acomodação inteira em Armação dos Búzios, com capacidade para 8 hóspedes. São 4 quartos, 6 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "rating": 4.61,
+    "reviews": 18,
+    "guests": 8,
+    "bedrooms": 4,
+    "beds": 6,
+    "baths": 4.0,
+    "coords": {
+      "lat": -22.77754,
+      "lng": -41.91028
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056917/bahia-stay/references/12407566/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056920/bahia-stay/references/12407566/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056923/bahia-stay/references/12407566/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056927/bahia-stay/references/12407566/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056929/bahia-stay/references/12407566/5.jpg"
+    ],
+    "host": {
+      "name": "Claudio",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": ""
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-12"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/12407566",
+    "sourceVerifiedAt": "2026-10-03T19:34:32.216323+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_17987444",
+    "title": "Casa Búzios Geribá",
+    "destination": "buzios",
+    "neighborhood": "Geribá",
+    "tagline": "Acomodação inteira para até 12 hóspedes",
+    "description": "Acomodação inteira em Armação dos Búzios, com capacidade para 12 hóspedes. São 3 quartos, 6 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "rating": 4.74,
+    "reviews": 341,
+    "guests": 12,
+    "bedrooms": 3,
+    "beds": 6,
+    "baths": 3.0,
+    "coords": {
+      "lat": -22.7753,
+      "lng": -41.9113
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056893/bahia-stay/references/17987444/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056896/bahia-stay/references/17987444/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056899/bahia-stay/references/17987444/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056902/bahia-stay/references/17987444/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056906/bahia-stay/references/17987444/5.jpg"
+    ],
+    "host": {
+      "name": "Diego Tavares",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-10",
+        "check_out": "2026-11-13"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/17987444",
+    "sourceVerifiedAt": "2026-10-03T19:34:31.099232+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_30508256",
+    "title": "Geriba, Búzios. Casa, em condomínio pé na areia.",
+    "destination": "buzios",
+    "neighborhood": "Geribá",
+    "tagline": "Acomodação inteira para até 8 hóspedes",
+    "description": "Acomodação inteira em Armação dos Búzios, com capacidade para 8 hóspedes. São 3 quartos, 5 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "rating": 4.8,
+    "reviews": 133,
+    "guests": 8,
+    "bedrooms": 3,
+    "beds": 5,
+    "baths": 3.0,
+    "coords": {
+      "lat": -22.77606,
+      "lng": -41.90903
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056910/bahia-stay/references/30508256/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056912/bahia-stay/references/30508256/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056915/bahia-stay/references/30508256/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056908/bahia-stay/references/30508256/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056914/bahia-stay/references/30508256/5.jpg"
+    ],
+    "host": {
+      "name": "Bernardo",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em poucas horas"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-11",
+        "check_out": "2026-11-14"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/30508256",
+    "sourceVerifiedAt": "2026-10-03T19:34:32.198576+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_40415041",
+    "title": "Casa maravilhosa em Geribá - Búzios",
+    "destination": "buzios",
+    "neighborhood": "Geribá",
+    "tagline": "Acomodação inteira para até 15 hóspedes",
+    "description": "Acomodação inteira em Praia de Geribá, com capacidade para 15 hóspedes. São 5 quartos, 11 camas e 6.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 530,
+    "weeklyPrice": 3710,
+    "weeklyPackagePromo": 3180,
+    "priceStatus": "illustrative",
+    "rating": 4.44,
+    "reviews": 16,
+    "guests": 15,
+    "bedrooms": 5,
+    "beds": 11,
+    "baths": 6.5,
+    "coords": {
+      "lat": -22.77845,
+      "lng": -41.91136
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056932/bahia-stay/references/40415041/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056936/bahia-stay/references/40415041/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056939/bahia-stay/references/40415041/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056942/bahia-stay/references/40415041/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056946/bahia-stay/references/40415041/5.jpg"
+    ],
+    "host": {
+      "name": "Maynara",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-12",
+        "check_out": "2026-11-15"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/40415041",
+    "sourceVerifiedAt": "2026-10-03T19:34:32.489925+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_5989690",
+    "title": "Casa em Búzios / Geribá colada na areia da praia!",
+    "destination": "buzios",
+    "neighborhood": "Geribá",
+    "tagline": "Acomodação inteira para até 12 hóspedes",
+    "description": "Acomodação inteira em Armação dos Búzios, com capacidade para 12 hóspedes. São 5 quartos, 5 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 460,
+    "weeklyPrice": 3220,
+    "weeklyPackagePromo": 2760,
+    "priceStatus": "illustrative",
+    "rating": 4.95,
+    "reviews": 83,
+    "guests": 12,
+    "bedrooms": 5,
+    "beds": 5,
+    "baths": 4.0,
+    "coords": {
+      "lat": -22.7781,
+      "lng": -41.9119
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056999/bahia-stay/references/5989690/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791057001/bahia-stay/references/5989690/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791057008/bahia-stay/references/5989690/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791057010/bahia-stay/references/5989690/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791057013/bahia-stay/references/5989690/5.jpg"
+    ],
+    "host": {
+      "name": "Marcia",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em poucas horas"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-13",
+        "check_out": "2026-11-16"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/5989690",
+    "sourceVerifiedAt": "2026-10-03T19:35:34.937952+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1180594489477703547",
+    "title": "Casa com piscina a 100 metros da praia, 7 quartos.",
+    "destination": "ilheus",
+    "neighborhood": "Ilhéus",
+    "tagline": "Acomodação inteira para até 16 hóspedes",
+    "description": "Acomodação inteira em Ilhéus, com capacidade para 16 hóspedes. São 7 quartos, 13 camas e 7 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 530,
+    "weeklyPrice": 3710,
+    "weeklyPackagePromo": 3180,
+    "priceStatus": "illustrative",
+    "rating": 0.0,
+    "reviews": 0,
+    "guests": 16,
+    "bedrooms": 7,
+    "beds": 13,
+    "baths": 7.0,
+    "coords": {
+      "lat": -14.9794,
+      "lng": -39.0015
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056558/bahia-stay/references/1180594489477703547/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056562/bahia-stay/references/1180594489477703547/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056565/bahia-stay/references/1180594489477703547/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056569/bahia-stay/references/1180594489477703547/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056556/bahia-stay/references/1180594489477703547/5.jpg"
+    ],
+    "host": {
+      "name": "Walter Rocha",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": ""
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-14",
+        "check_out": "2026-11-17"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1180594489477703547",
+    "sourceVerifiedAt": "2026-10-03T19:34:27.130140+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1364774916112300117",
+    "title": "Casa com Piscina e 550m da Praia em Ilhéus",
+    "destination": "ilheus",
+    "neighborhood": "Ilhéus",
+    "tagline": "Acomodação inteira para até 10 hóspedes",
+    "description": "Acomodação inteira em Ilhéus, com capacidade para 10 hóspedes. São 3 quartos, 9 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "rating": 4.57,
+    "reviews": 7,
+    "guests": 10,
+    "bedrooms": 3,
+    "beds": 9,
+    "baths": 3.0,
+    "coords": {
+      "lat": -14.626,
+      "lng": -39.0673
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056533/bahia-stay/references/1364774916112300117/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056539/bahia-stay/references/1364774916112300117/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056543/bahia-stay/references/1364774916112300117/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056549/bahia-stay/references/1364774916112300117/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056553/bahia-stay/references/1364774916112300117/5.jpg"
+    ],
+    "host": {
+      "name": "Welhome Brasil",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-05",
+        "check_out": "2026-11-08"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1364774916112300117",
+    "sourceVerifiedAt": "2026-10-03T19:34:26.583150+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1572458491944434952",
+    "title": "Casa de Praia-Ilhéus\nCom Piscina em Cond. Fechado",
+    "destination": "ilheus",
+    "neighborhood": "Águas de Olivença",
+    "tagline": "Acomodação inteira para até 14 hóspedes",
+    "description": "Acomodação inteira em Ilhéus, com capacidade para 14 hóspedes. São 3 quartos, 9 camas e 2.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, máquina de lavar, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "rating": 5.0,
+    "reviews": 1,
+    "guests": 14,
+    "bedrooms": 3,
+    "beds": 9,
+    "baths": 2.5,
+    "coords": {
+      "lat": -15.003623315011597,
+      "lng": -39.00063536047667
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "washer",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056419/bahia-stay/references/1572458491944434952/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056424/bahia-stay/references/1572458491944434952/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056428/bahia-stay/references/1572458491944434952/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056431/bahia-stay/references/1572458491944434952/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056436/bahia-stay/references/1572458491944434952/5.jpg"
+    ],
+    "host": {
+      "name": "Yuri Abijaude",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-09"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1572458491944434952",
+    "sourceVerifiedAt": "2026-10-03T19:34:25.404227+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_732035158083792133",
+    "title": "Casa a 250m da Praia do Sul com Wi-Fi em Ilhéus/BA",
+    "destination": "ilheus",
+    "neighborhood": "Praia do Sul",
+    "tagline": "Acomodação inteira para até 15 hóspedes",
+    "description": "Acomodação inteira em Ilhéus, com capacidade para 15 hóspedes. São 6 quartos, 13 camas e 5.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "rating": 4.53,
+    "reviews": 15,
+    "guests": 15,
+    "bedrooms": 6,
+    "beds": 13,
+    "baths": 5.5,
+    "coords": {
+      "lat": -14.82005,
+      "lng": -39.02825
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056456/bahia-stay/references/732035158083792133/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056523/bahia-stay/references/732035158083792133/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056526/bahia-stay/references/732035158083792133/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056530/bahia-stay/references/732035158083792133/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056536/bahia-stay/references/732035158083792133/5.jpg"
+    ],
+    "host": {
+      "name": "Anfitrião Prime",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-10"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/732035158083792133",
+    "sourceVerifiedAt": "2026-10-03T19:34:26.143217+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_8140332",
+    "title": "Casa de luxo na praia, piscina privada 15 pessoas",
+    "destination": "ilheus",
+    "neighborhood": "Condomínio Joia do Atlântico",
+    "tagline": "Acomodação inteira para até 15 hóspedes",
+    "description": "Acomodação inteira em Ilhéus, com capacidade para 15 hóspedes. São 4 quartos, 15 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 480,
+    "weeklyPrice": 3360,
+    "weeklyPackagePromo": 2880,
+    "priceStatus": "illustrative",
+    "rating": 4.65,
+    "reviews": 55,
+    "guests": 15,
+    "bedrooms": 4,
+    "beds": 15,
+    "baths": 3.0,
+    "coords": {
+      "lat": -14.64614,
+      "lng": -39.07111
+    },
+    "amenities": [
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056439/bahia-stay/references/8140332/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056442/bahia-stay/references/8140332/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056445/bahia-stay/references/8140332/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056449/bahia-stay/references/8140332/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056454/bahia-stay/references/8140332/5.jpg"
+    ],
+    "host": {
+      "name": "Simon",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-11"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/8140332",
+    "sourceVerifiedAt": "2026-10-03T19:34:25.806251+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1583690591483045089",
+    "title": "Casa três quartos Itacare condomínio piscina",
+    "destination": "itacare",
+    "neighborhood": "Vila das Bromélias",
+    "tagline": "Acomodação inteira para até 10 hóspedes",
+    "description": "Acomodação inteira em Itacaré, com capacidade para 10 hóspedes. São 3 quartos, 6 camas e 2 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "rating": 4.33,
+    "reviews": 3,
+    "guests": 10,
+    "bedrooms": 3,
+    "beds": 6,
+    "baths": 2.0,
+    "coords": {
+      "lat": -14.306231543878223,
+      "lng": -39.01219187488259
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056577/bahia-stay/references/1583690591483045089/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056581/bahia-stay/references/1583690591483045089/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056584/bahia-stay/references/1583690591483045089/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056588/bahia-stay/references/1583690591483045089/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056591/bahia-stay/references/1583690591483045089/5.jpg"
+    ],
+    "host": {
+      "name": "Mariá Veiga",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-12"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1583690591483045089",
+    "sourceVerifiedAt": "2026-10-03T19:34:28.375836+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_17278553",
+    "title": "Casa 4 Coqueiros, Piscina, 16 Hóspedes e 4 Suítes",
+    "destination": "itacare",
+    "neighborhood": "Rio de Contas",
+    "tagline": "Acomodação inteira para até 16 hóspedes",
+    "description": "Acomodação inteira em Itacaré, com capacidade para 16 hóspedes. São 4 quartos, 13 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "rating": 4.97,
+    "reviews": 75,
+    "guests": 16,
+    "bedrooms": 4,
+    "beds": 13,
+    "baths": 4.0,
+    "coords": {
+      "lat": -14.2771,
+      "lng": -39.001
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056619/bahia-stay/references/17278553/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056622/bahia-stay/references/17278553/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056627/bahia-stay/references/17278553/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056615/bahia-stay/references/17278553/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056620/bahia-stay/references/17278553/5.jpg"
+    ],
+    "host": {
+      "name": "Stelvio Bruni Rosi",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-10",
+        "check_out": "2026-11-13"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/17278553",
+    "sourceVerifiedAt": "2026-10-03T19:34:29.723667+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_30039065",
+    "title": "Linda casa Itacaré-Acesso exclusivo Praia São José",
+    "destination": "itacare",
+    "neighborhood": "Vilas de São José",
+    "tagline": "Acomodação inteira para até 6 hóspedes",
+    "description": "Acomodação inteira em Itacaré, com capacidade para 6 hóspedes. São 2 quartos, 4 camas e 2 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 290,
+    "weeklyPrice": 2030,
+    "weeklyPackagePromo": 1740,
+    "priceStatus": "illustrative",
+    "rating": 4.89,
+    "reviews": 91,
+    "guests": 6,
+    "bedrooms": 2,
+    "beds": 4,
+    "baths": 2.0,
+    "coords": {
+      "lat": -14.31609,
+      "lng": -38.99406
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056594/bahia-stay/references/30039065/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056597/bahia-stay/references/30039065/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056601/bahia-stay/references/30039065/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056606/bahia-stay/references/30039065/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056608/bahia-stay/references/30039065/5.jpg"
+    ],
+    "host": {
+      "name": "Wilson",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-11",
+        "check_out": "2026-11-14"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/30039065",
+    "sourceVerifiedAt": "2026-10-03T19:34:28.407221+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_48026016",
+    "title": "casaroxaitacare \nconforto e harmonia",
+    "destination": "itacare",
+    "neighborhood": "Itacaré",
+    "tagline": "Acomodação inteira para até 14 hóspedes",
+    "description": "Acomodação inteira em Itacaré, com capacidade para 14 hóspedes. São 4 quartos, 8 camas e 5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 460,
+    "weeklyPrice": 3220,
+    "weeklyPackagePromo": 2760,
+    "priceStatus": "illustrative",
+    "rating": 4.86,
+    "reviews": 7,
+    "guests": 14,
+    "bedrooms": 4,
+    "beds": 8,
+    "baths": 5.0,
+    "coords": {
+      "lat": -14.29148,
+      "lng": -39.00015
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056559/bahia-stay/references/48026016/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056563/bahia-stay/references/48026016/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056567/bahia-stay/references/48026016/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056571/bahia-stay/references/48026016/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056574/bahia-stay/references/48026016/5.jpg"
+    ],
+    "host": {
+      "name": "Pedro",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-12",
+        "check_out": "2026-11-15"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/48026016",
+    "sourceVerifiedAt": "2026-10-03T19:34:28.005061+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_44463721",
+    "title": "Casa de Luxo Peroba Home em Maragogi",
+    "destination": "maragogi",
+    "neighborhood": "Peroba",
+    "tagline": "Acomodação inteira para até 12 hóspedes",
+    "description": "Acomodação inteira em Maragogi, com capacidade para 12 hóspedes. São 4 quartos, 7 camas e 6 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "rating": 5.0,
+    "reviews": 45,
+    "guests": 12,
+    "bedrooms": 4,
+    "beds": 7,
+    "baths": 6.0,
+    "coords": {
+      "lat": -8.92942,
+      "lng": -35.16737
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056954/bahia-stay/references/44463721/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056957/bahia-stay/references/44463721/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056960/bahia-stay/references/44463721/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056963/bahia-stay/references/44463721/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056969/bahia-stay/references/44463721/5.jpg"
+    ],
+    "host": {
+      "name": "Maria Beatriz",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-13",
+        "check_out": "2026-11-16"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/44463721",
+    "sourceVerifiedAt": "2026-10-03T19:34:33.489791+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_45740695",
+    "title": "Casa em Peroba/Maragogi 100m da praia",
+    "destination": "maragogi",
+    "neighborhood": "Peroba",
+    "tagline": "Acomodação inteira para até 8 hóspedes",
+    "description": "Acomodação inteira em Maragogi, com capacidade para 8 hóspedes. São 4 quartos, 4 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "rating": 4.83,
+    "reviews": 95,
+    "guests": 8,
+    "bedrooms": 4,
+    "beds": 4,
+    "baths": 4.0,
+    "coords": {
+      "lat": -8.92219,
+      "lng": -35.16078
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056973/bahia-stay/references/45740695/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056976/bahia-stay/references/45740695/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056966/bahia-stay/references/45740695/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056971/bahia-stay/references/45740695/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056975/bahia-stay/references/45740695/5.jpg"
+    ],
+    "host": {
+      "name": "Bruna",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-14",
+        "check_out": "2026-11-17"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/45740695",
+    "sourceVerifiedAt": "2026-10-03T19:34:34.487750+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_46662335",
+    "title": "Casaribenha Maragogi - 4 suítes - Pisc. Ar Cond.",
+    "destination": "maragogi",
+    "neighborhood": "Peroba",
+    "tagline": "Acomodação inteira para até 15 hóspedes",
+    "description": "Acomodação inteira em Maragogi, com capacidade para 15 hóspedes. São 4 quartos, 11 camas e 5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 510,
+    "weeklyPrice": 3570,
+    "weeklyPackagePromo": 3060,
+    "priceStatus": "illustrative",
+    "rating": 4.93,
+    "reviews": 15,
+    "guests": 15,
+    "bedrooms": 4,
+    "beds": 11,
+    "baths": 5.0,
+    "coords": {
+      "lat": -8.9391,
+      "lng": -35.1715
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056979/bahia-stay/references/46662335/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056982/bahia-stay/references/46662335/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056987/bahia-stay/references/46662335/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056990/bahia-stay/references/46662335/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056995/bahia-stay/references/46662335/5.jpg"
+    ],
+    "host": {
+      "name": "Walmir",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-05",
+        "check_out": "2026-11-08"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/46662335",
+    "sourceVerifiedAt": "2026-10-03T19:35:33.625555+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_51563499",
+    "title": "Casa à beira-mar em Maragogi!",
+    "destination": "maragogi",
+    "neighborhood": "Peroba",
+    "tagline": "Acomodação inteira para até 10 hóspedes",
+    "description": "Acomodação inteira em Maragogi, com capacidade para 10 hóspedes. São 4 quartos, 6 camas e 3 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 420,
+    "weeklyPrice": 2940,
+    "weeklyPackagePromo": 2520,
+    "priceStatus": "illustrative",
+    "rating": 4.5,
+    "reviews": 12,
+    "guests": 10,
+    "bedrooms": 4,
+    "beds": 6,
+    "baths": 3.0,
+    "coords": {
+      "lat": -8.93066,
+      "lng": -35.16679
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056950/bahia-stay/references/51563499/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056953/bahia-stay/references/51563499/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056944/bahia-stay/references/51563499/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056948/bahia-stay/references/51563499/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056951/bahia-stay/references/51563499/5.jpg"
+    ],
+    "host": {
+      "name": "Ana Paula",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-09"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/51563499",
+    "sourceVerifiedAt": "2026-10-03T19:34:33.214203+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1266907865886182486",
+    "title": "Refúgio beira-mar 4 suítes - Praia Taperapuan",
+    "destination": "porto-seguro",
+    "neighborhood": "Taperapuã",
+    "tagline": "Acomodação inteira para até 16 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 16 hóspedes. São 4 quartos, 8 camas e 4.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada, vista para o mar. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "rating": 4.89,
+    "reviews": 9,
+    "guests": 16,
+    "bedrooms": 4,
+    "beds": 8,
+    "baths": 4.5,
+    "coords": {
+      "lat": -16.38602,
+      "lng": -39.04092
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen",
+      "ocean"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056367/bahia-stay/references/1266907865886182486/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056371/bahia-stay/references/1266907865886182486/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056874/bahia-stay/references/1266907865886182486/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056383/bahia-stay/references/1266907865886182486/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056375/bahia-stay/references/1266907865886182486/5.jpg"
+    ],
+    "host": {
+      "name": "Thiago Lima - Imobi Temporada",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até um dia"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-10"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1266907865886182486",
+    "sourceVerifiedAt": "2026-10-03T19:34:22.976841+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1292682562473610557",
+    "title": "Casa c/ piscina 350m Praia de Taperapuan RUD0047",
+    "destination": "porto-seguro",
+    "neighborhood": "Taperapuã",
+    "tagline": "Acomodação inteira para até 11 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 11 hóspedes. São 3 quartos, 6 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "rating": 4.87,
+    "reviews": 23,
+    "guests": 11,
+    "bedrooms": 3,
+    "beds": 6,
+    "baths": 4.0,
+    "coords": {
+      "lat": -16.398,
+      "lng": -39.0443
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056344/bahia-stay/references/1292682562473610557/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056347/bahia-stay/references/1292682562473610557/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056352/bahia-stay/references/1292682562473610557/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056355/bahia-stay/references/1292682562473610557/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056359/bahia-stay/references/1292682562473610557/5.jpg"
+    ],
+    "host": {
+      "name": "Seazone",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-11"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1292682562473610557",
+    "sourceVerifiedAt": "2026-10-03T19:34:21.930153+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_16235287",
+    "title": "Linda casa na praia de Taperapuan!",
+    "destination": "porto-seguro",
+    "neighborhood": "Taperapuã",
+    "tagline": "Acomodação inteira para até 10 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 10 hóspedes. São 4 quartos, 5 camas e 4 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, piscina, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "rating": 4.6,
+    "reviews": 43,
+    "guests": 10,
+    "bedrooms": 4,
+    "beds": 5,
+    "baths": 4.0,
+    "coords": {
+      "lat": -16.39483,
+      "lng": -39.04287
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "pool",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056307/bahia-stay/references/16235287/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056328/bahia-stay/references/16235287/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056334/bahia-stay/references/16235287/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056337/bahia-stay/references/16235287/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056341/bahia-stay/references/16235287/5.jpg"
+    ],
+    "host": {
+      "name": "Rustik",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-12"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/16235287",
+    "sourceVerifiedAt": "2026-10-03T19:34:21.816781+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1731246497838866922",
+    "title": "Casa c/ Piscina e Churrasqueira privativa.",
+    "destination": "porto-seguro",
+    "neighborhood": "Taperapuã",
+    "tagline": "Acomodação inteira para até 6 hóspedes",
+    "description": "Acomodação inteira em Porto Seguro, com capacidade para 6 hóspedes. São 2 quartos, 4 camas e 2.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, geladeira, Wi-Fi, piscina, churrasqueira, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 290,
+    "weeklyPrice": 2030,
+    "weeklyPackagePromo": 1740,
+    "priceStatus": "illustrative",
+    "rating": 0.0,
+    "reviews": 0,
+    "guests": 6,
+    "bedrooms": 2,
+    "beds": 4,
+    "baths": 2.5,
+    "coords": {
+      "lat": -16.3878,
+      "lng": -39.0412
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "fridge",
+      "wifi",
+      "pool",
+      "bbq",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056363/bahia-stay/references/1731246497838866922/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056369/bahia-stay/references/1731246497838866922/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056373/bahia-stay/references/1731246497838866922/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056376/bahia-stay/references/1731246497838866922/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056365/bahia-stay/references/1731246497838866922/5.jpg"
+    ],
+    "host": {
+      "name": "Adriana",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em poucas horas"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-10",
+        "check_out": "2026-11-13"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1731246497838866922",
+    "sourceVerifiedAt": "2026-10-03T19:34:22.424444+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_1506673611242446076",
+    "title": "Casa Axé Bahia",
+    "destination": "salvador",
+    "neighborhood": "Dois de Julho",
+    "tagline": "Acomodação inteira para até 2 hóspedes",
+    "description": "Acomodação inteira em Salvador, com capacidade para 2 hóspedes. O espaço é um estúdio com 1 cama e 1 banheiro. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 180,
+    "weeklyPrice": 1260,
+    "weeklyPackagePromo": 1080,
+    "priceStatus": "illustrative",
+    "rating": 4.49,
+    "reviews": 45,
+    "guests": 2,
+    "bedrooms": 0,
+    "beds": 1,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.9803,
+      "lng": -38.5166
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056646/bahia-stay/references/1506673611242446076/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056878/bahia-stay/references/1506673611242446076/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056883/bahia-stay/references/1506673611242446076/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056890/bahia-stay/references/1506673611242446076/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056887/bahia-stay/references/1506673611242446076/5.jpg"
+    ],
+    "host": {
+      "name": "Vicente",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-11",
+        "check_out": "2026-11-14"
+      },
+      {
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-28"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/1506673611242446076",
+    "sourceVerifiedAt": "2026-10-03T19:34:30.996315+00:00",
+    "locationPrecision": "exact",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_3231536",
+    "title": "Casa pra aluguel no pelourinho.",
+    "destination": "salvador",
+    "neighborhood": "Pelourinho",
+    "tagline": "Acomodação inteira para até 10 hóspedes",
+    "description": "Acomodação inteira em Salvador, com capacidade para 10 hóspedes. São 2 quartos, 8 camas e 1 banheiro. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, fogão, geladeira, Wi-Fi, estacionamento, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 340,
+    "weeklyPrice": 2380,
+    "weeklyPackagePromo": 2040,
+    "priceStatus": "illustrative",
+    "rating": 4.45,
+    "reviews": 49,
+    "guests": 10,
+    "bedrooms": 2,
+    "beds": 8,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.9735,
+      "lng": -38.51133
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "parking",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056624/bahia-stay/references/3231536/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056628/bahia-stay/references/3231536/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056631/bahia-stay/references/3231536/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056636/bahia-stay/references/3231536/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056639/bahia-stay/references/3231536/5.jpg"
+    ],
+    "host": {
+      "name": "Helinho",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-12",
+        "check_out": "2026-11-15"
+      },
+      {
+        "check_in": "2026-12-25",
+        "check_out": "2026-12-29"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Marina",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Rafael",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Luiza",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/3231536",
+    "sourceVerifiedAt": "2026-10-03T19:34:29.763699+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_42024641",
+    "title": "Casa da Travessa",
+    "destination": "salvador",
+    "neighborhood": "Federação",
+    "tagline": "Acomodação inteira para até 4 hóspedes",
+    "description": "Acomodação inteira em Salvador, com capacidade para 4 hóspedes. São 2 quartos, 3 camas e 1 banheiro. Entre as comodidades informadas no anúncio estão TV, fogão, geladeira, Wi-Fi, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 240,
+    "weeklyPrice": 1680,
+    "weeklyPackagePromo": 1440,
+    "priceStatus": "illustrative",
+    "rating": 4.86,
+    "reviews": 7,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 1.0,
+    "coords": {
+      "lat": -12.99745,
+      "lng": -38.5122
+    },
+    "amenities": [
+      "tv",
+      "stove",
+      "fridge",
+      "wifi",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056644/bahia-stay/references/42024641/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056648/bahia-stay/references/42024641/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056635/bahia-stay/references/42024641/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056638/bahia-stay/references/42024641/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056642/bahia-stay/references/42024641/5.jpg"
+    ],
+    "host": {
+      "name": "Saback",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em até 1 hora"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-13",
+        "check_out": "2026-11-16"
+      },
+      {
+        "check_in": "2026-12-22",
+        "check_out": "2026-12-26"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Camila",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Bruno",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Fernanda",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/42024641",
+    "sourceVerifiedAt": "2026-10-03T19:34:30.766857+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  },
+  {
+    "id": "ref_826700696631973960",
+    "title": "Casa Tropical Praia Salvador BA",
+    "destination": "salvador",
+    "neighborhood": "Praia do Flamengo",
+    "tagline": "Acomodação inteira para até 14 hóspedes",
+    "description": "Acomodação inteira em Salvador, com capacidade para 14 hóspedes. São 5 quartos, 11 camas e 4.5 banheiros. Entre as comodidades informadas no anúncio estão ar-condicionado, TV, Wi-Fi, churrasqueira, estacionamento, máquina de lavar, cozinha equipada. A galeria mostra fotos deste imóvel. Consulte o atendimento para confirmar o valor e as condições da estadia.",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "rating": 4.87,
+    "reviews": 15,
+    "guests": 14,
+    "bedrooms": 5,
+    "beds": 11,
+    "baths": 4.5,
+    "coords": {
+      "lat": -12.93012,
+      "lng": -38.32174
+    },
+    "amenities": [
+      "ac",
+      "tv",
+      "wifi",
+      "bbq",
+      "parking",
+      "washer",
+      "kitchen"
+    ],
+    "images": [
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056600/bahia-stay/references/826700696631973960/1.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056603/bahia-stay/references/826700696631973960/2.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056606/bahia-stay/references/826700696631973960/3.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056610/bahia-stay/references/826700696631973960/4.jpg",
+      "https://res.cloudinary.com/w4njgach/image/upload/v1791056615/bahia-stay/references/826700696631973960/5.jpg"
+    ],
+    "host": {
+      "name": "Maria Clotilde",
+      "bio": "",
+      "photo": null,
+      "photo_storage_path": null,
+      "languages": [],
+      "response_time": "em poucas horas"
+    },
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-11-14",
+        "check_out": "2026-11-17"
+      },
+      {
+        "check_in": "2026-12-23",
+        "check_out": "2026-12-27"
+      }
+    ],
+    "sampleReviews": [
+      {
+        "name": "Renata",
+        "rating": 5,
+        "text": "Gostamos da organização dos ambientes e do espaço para descansar depois dos passeios."
+      },
+      {
+        "name": "Diego",
+        "rating": 4,
+        "text": "Uma estadia tranquila, com tempo para aproveitar a região e descansar em companhia."
+      },
+      {
+        "name": "Carolina",
+        "rating": 5,
+        "text": "A casa foi uma boa base para os nossos dias de férias. A experiência em grupo foi muito agradável."
+      }
+    ],
+    "availabilitySource": "presentation_examples",
+    "sourceUrl": "https://www.airbnb.com.br/rooms/826700696631973960",
+    "sourceVerifiedAt": "2026-10-03T19:34:29.497761+00:00",
+    "locationPrecision": "approximate",
+    "pricingSource": "authorized_test_values"
+  }
+]

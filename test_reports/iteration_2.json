@@ -1,0 +1,25 @@
+{
+  "summary": "Frontend-only regression test for 3 bug fixes (sticky overlap, '1 hóspede' option, 5 new destinations). All 3 bug fixes verified. No console errors on home or any of the new detail pages (je-01, fn-01, bz-01, mg-01, fl-01). WhatsApp checkout URL confirmed to target wa.me/5511981389572. Regression counts correct for Porto Seguro (3), Ilhéus (3), Arraial d'Ajuda (4). Total properties = 15.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Hero copy still says 'Porto Seguro, Ilhéus e Arraial d'Ajuda' and header pill reads 'Costa do Descobrimento · Bahia' — not updated after adding 5 new states. Consider updating hero subtitle and footer DESTINOS list (which still only lists Porto Seguro/Ilhéus/Arraial) to reflect the expanded catalog.",
+    "'How it works' section description text still references only Porto Seguro/Ilhéus/Arraial d'Ajuda — minor copy inconsistency with new destinations.",
+    "PropertyDetail map subtitle hardcodes 'Bahia' as the state (line 235: `${destLabel}, Bahia`) — now incorrect for CE/PE/RJ/AL/SC properties. Should use destination.state from DESTINATIONS.",
+    "Home.jsx `scrollToResults` uses window scroll into view; after click the smooth scroll works fine but filter form state doesn't trigger filter apply (filters are reactive via useMemo). OK — no action needed.",
+    "Guest filter with value '1' matches all 15 properties (since min guests across catalog is 2 for ps-02 and fn-01 — actually both guests=2). '1 hóspede' therefore behaves identically to 'Qualquer'. Expected per spec, but UX could be reconsidered."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A", "frontend": "100%"},
+  "seed_data_creation": "none",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Verified: navbar bg rgba(250,247,242,0.95) z-index 60; filters-panel sticky position with maxHeight 688px (calc(100vh-7rem) at 800px viewport) overflow:auto; booking-widget aside sticky maxHeight 688px overflow:auto. Guest options exact match: ['Qualquer','1 hóspede','2+ hóspedes','4+ hóspedes','6+ hóspedes','8+ hóspedes']. Destination counts per tab: all=15, porto-seguro=3, ilheus=3, arraial-d-ajuda=4, jericoacoara=1, fernando-noronha=1, buzios=1, maragogi=1, florianopolis=1. All 5 new detail pages render correct title + OSM iframe. WhatsApp opened URL = https://wa.me/5511981389572?text=... (phone correct).",
+  "rca of the issue": "N/A — all three bug fixes validated. Minor copy inconsistencies flagged for main agent as code review comments but not blocking."
+}

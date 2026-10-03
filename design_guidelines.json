@@ -1,0 +1,151 @@
+{
+  "project_title": "Bahia Stay - Airbnb-Style Brazilian Beach Rentals",
+  "theme": "Warm Coastal Bahian Modernism (Sand, Terracotta, Deep Teal, Sunlit Bone White)",
+  "color_archetype": "Organic Coastal & Warm Luxury (Archetype 1 + Luxury Accent)",
+  "colors": {
+    "primary": "#E05A36",
+    "primary_hover": "#C84927",
+    "primary_light": "#FFF3EF",
+    "accent_teal": "#1A5E63",
+    "accent_gold": "#D4930D",
+    "whatsapp_green": "#25D366",
+    "whatsapp_dark": "#128C7E",
+    "background_light": "#FAF7F2",
+    "card_background": "#FFFFFF",
+    "surface_tinted": "#F4EFEA",
+    "text_dark": "#1C1C1E",
+    "text_muted": "#6E6E73",
+    "text_light": "#98989D",
+    "border_subtle": "#E6DFD5",
+    "border_dark": "#D1C7B8",
+    "badge_promo": "#E05A36",
+    "badge_discount": "#2E7D32"
+  },
+  "typography": {
+    "font_family_heading": "Plus Jakarta Sans, sans-serif",
+    "font_family_body": "Outfit, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "headings": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-[#1C1C1E]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1C1C1E]",
+      "h3_card_title": "text-xl sm:text-2xl font-bold tracking-tight text-[#1C1C1E]",
+      "h4_widget_header": "text-lg sm:text-xl font-semibold text-[#1C1C1E]"
+    },
+    "body": {
+      "base": "text-base font-normal leading-relaxed text-[#6E6E73]",
+      "small": "text-sm font-normal text-[#6E6E73]",
+      "label": "text-xs font-semibold uppercase tracking-[0.15em] text-[#A19585]"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-8 lg:px-12 max-w-7xl mx-auto",
+    "section_gap": "py-12 sm:py-16 lg:py-24",
+    "grid_property_cards": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8",
+    "grid_amenities": "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4",
+    "bento_features": "grid grid-cols-1 md:grid-cols-12 gap-6",
+    "card_internal_padding": "p-5 sm:p-6"
+  },
+  "visual_enhancers": {
+    "glassmorphism_nav": "bg-[#FAF7F2]/80 backdrop-blur-xl border-b border-[#E6DFD5]/80 z-50 sticky top-0",
+    "card_shadow": "shadow-[0_4px_20px_rgba(28,28,30,0.06)] hover:shadow-[0_12px_32px_rgba(28,28,30,0.12)] transition-all duration-300",
+    "floating_whatsapp_button": "fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white p-4 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all duration-200 flex items-center gap-3 font-semibold",
+    "promo_banner_gradient": "bg-gradient-to-r from-[#E05A36] via-[#D4930D] to-[#1A5E63] text-white rounded-2xl p-6 sm:p-8 shadow-xl"
+  },
+  "components": {
+    "header_nav": {
+      "type": "Glassmorphic sticky header with logo, beach house quick links, BRL currency indicator, search bar summary, and WhatsApp instant support CTA",
+      "desktop": "Visible links (Destinos, Ofertas Semanais, 1ª Reserva, Como Funciona, Contato)",
+      "mobile": "Responsive drawer with full link set + direct WhatsApp quick button"
+    },
+    "hero_search": {
+      "type": "Airbnb floating pill-style interactive search widget",
+      "fields": ["Destino (Porto Seguro, Ilhéus, Arraial d'Ajuda)", "Datas (Check-in / Check-out)", "Hóspedes"],
+      "style": "bg-white border border-[#E6DFD5] shadow-xl rounded-full p-2 flex flex-col md:flex-row items-center gap-2"
+    },
+    "property_card": {
+      "type": "Airbnb-style property card with multi-photo slider/carousel, wishlist heart button, badge overlays, location tag, price breakdown, and rating",
+      "elements": [
+        "Photo slider carousel (with prev/next arrow overlay + pagination dots)",
+        "Heart icon toggle with state feedback",
+        "Beach destination pill (e.g. 'Arraial d'Ajuda • Beira-Mar')",
+        "Title & guest capacity",
+        "Price highlight: R$ XXX / noite, Pacote Semana discount indicator",
+        "Rating score with star icon (e.g. ★ 4.98)"
+      ]
+    },
+    "property_detail_view": {
+      "type": "Full property modal/page with photo gallery grid, host overview, detailed amenities with icons, OpenStreetMap interactive location, pricing calculator with discounts, and WhatsApp checkout button",
+      "whatsapp_flow": "Generates custom pre-filled WhatsApp message including Property Title, Chosen Dates, Guests, Calculated Total Price, and Applied Promo Codes to 11981389572"
+    },
+    "promo_banner": {
+      "type": "High-converting promo section showcasing 'Pacote Semana' (e.g., 7 noites de R$1.500 por R$1.000) and '1ª Reserva' (% de desconto extra)"
+    },
+    "map_component": {
+      "library": "Leaflet.js / react-leaflet with OpenStreetMap vector tile tileset custom styled to warm beach theme"
+    }
+  },
+  "image_urls": {
+    "hero_background": "https://images.unsplash.com/photo-1760067538263-fb7126fe748c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwxfHxicmF6aWwlMjBiZWFjaCUyMGhvdXNlJTIwcG9vbCUyMGx1eHVyeSUyMHZpbGxhJTIwdHJvcGljYWwlMjBjb2FzdGFsJTIwcmVzb3J0fGVufDB8fHx8MTc5MDg4NzY3OXww&ixlib=rb-4.1.0&q=85",
+    "living_room_1": "https://images.unsplash.com/photo-1760067538299-3f58e7a99fc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHw0fHxicmF6aWwlMjBiZWFjaCUyMGhvdXNlJTIwcG9vbCUyMGx1eHVyeSUyMHZpbGxhJTIwdHJvcGljYWwlMjBjb2FzdGFsJTIwcmVzb3J0fGVufDB8fHx8MTc5MDg4NzY3OXww&ixlib=rb-4.1.0&q=85",
+    "living_room_2": "https://images.unsplash.com/photo-1760067537620-6aaab015fba5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHxicmF6aWwlMjBiZWFjaCUyMGhvdXNlJTIwcG9vbCUyMGx1eHVyeSUyMHZpbGxhJTIwdHJvcGljYWwlMjBjb2FzdGFsJTIwcmVzb3J0fGVufDB8fHx8MTc5MDg4NzY3OXww&ixlib=rb-4.1.0&q=85",
+    "living_room_3": "https://images.unsplash.com/photo-1760067538612-c0ecd3bc3d3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHxicmF6aWwlMjBiZWFjaCUyMGhvdXNlJTIwcG9vbCUyMGx1eHVyeSUyMHZpbGxhJTIwdHJvcGljYWwlMjBjb2FzdGFsJTIwcmVzb3J0fGVufDB8fHx8MTc5MDg4NzY3OXww&ixlib=rb-4.1.0&q=85",
+    "pool_sunset": "https://images.unsplash.com/photo-1634645995827-885f9a67be50?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwzfHx0cm9waWNhbCUyMGJlYWNoJTIwaG91c2UlMjBwb29sJTIwcmVzb3J0JTIwZXh0ZXJpb3IlMjBzdW5zZXR8ZW58MHx8fHwxNzkwODg3Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "coastal_view": "https://images.unsplash.com/photo-1504731231146-c0f65dc6a950?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHw0fHx0cm9waWNhbCUyMGJlYWNoJTIwaG91c2UlMjBwb29sJTIwcmVzb3J0JTIwZXh0ZXJpb3IlMjBzdW5zZXR8ZW58MHx8fHwxNzkwODg3Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "palms_sunset": "https://images.unsplash.com/photo-1616484173745-07f25fd0547f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwaG91c2UlMjBwb29sJTIwcmVzb3J0JTIwZXh0ZXJpb3IlMjBzdW5zZXR8ZW58MHx8fHwxNzkwODg3Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "palm_trees": "https://images.unsplash.com/photo-1598924957326-0446ac30341e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHx0cm9waWNhbCUyMGJlYWNoJTIwaG91c2UlMjBwb29sJTIwcmVzb3J0JTIwZXh0ZXJpb3IlMjBzdW5zZXR8ZW58MHx8fHwxNzkwODg3Njg3fDA&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_and_automation": {
+    "data_testid_convention": "kebab-case, role-based, unique for every key action",
+    "required_test_ids": [
+      "navbar-brand-logo",
+      "navbar-search-btn",
+      "navbar-whatsapp-contact-btn",
+      "hero-search-container",
+      "hero-destination-select",
+      "hero-checkin-input",
+      "hero-checkout-input",
+      "hero-guests-select",
+      "hero-search-submit-btn",
+      "filter-destination-porto-seguro",
+      "filter-destination-ilheus",
+      "filter-destination-arraial-d-ajuda",
+      "filter-price-range-slider",
+      "filter-amenity-pool",
+      "filter-amenity-ac",
+      "filter-amenity-wifi",
+      "promo-weekly-package-card",
+      "promo-first-booking-card",
+      "property-card-1",
+      "property-card-heart-btn-1",
+      "property-card-image-carousel-1",
+      "property-card-details-link-1",
+      "property-modal-title",
+      "property-modal-amenities-list",
+      "property-modal-leaflet-map",
+      "property-modal-price-breakdown",
+      "property-modal-weekly-discount-badge",
+      "property-modal-first-booking-discount-badge",
+      "property-modal-whatsapp-checkout-btn",
+      "floating-whatsapp-btn"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Source code files use JavaScript (.js / .jsx), NOT TypeScript (.tsx). Maintain standard JS component conventions.",
+    "2. Store properties data with realistic prices in Brazilian Real (R$ 300 to R$ 1500 per night) across Porto Seguro, Ilhéus, and Arraial d'Ajuda.",
+    "3. Build exact WhatsApp checkout integration that triggers `https://wa.me/5511981389572?text=...` with formatted property title, checkin/checkout dates, number of guests, applied weekly/first-booking discount, and final calculated total.",
+    "4. Ensure property detail modal includes real OpenStreetMap using `react-leaflet` or Leaflet JS with valid lat/long coordinates for Bahian beaches.",
+    "5. Every interactive element MUST carry `data-testid` attribute as specified in testing_and_automation section.",
+    "6. Include amenities icons using `lucide-react` (Air conditioning: Wind, TV: Tv, Stove: Flame, Fridge: Refrigerator/Box, Pool: Waves, Wifi: Wifi, Barbecue: Grill/Flame, Parking: Car).",
+    "7. Implement responsive filters for location, nightly price range (R$300-1500), and specific amenities.",
+    "8. Implement promo calculation logic: Weekly stay (7+ nights) grants special package discount (e.g. 7 nights originally R$1,500 discounted to R$1,000) and first reservation toggle applies an extra discount."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do not use dark colors as heavy flat backgrounds for rental listings. Use soft warm sand neutrals with vibrant terracotta accents.",
+    "Create depth through layered design elements with z-index hierarchy and glassmorphism backdrop blurs.",
+    "Do NOT apply universal transition (`transition: all`). Always target specific properties like `transition: color 0.2s, background-color 0.2s, transform 0.2s`.",
+    "Do NOT center align the app container (`.App { text-align: center; }`). Keep natural left-aligned reading hierarchy.",
+    "NEVER use AI assistant Emoji characters (🤖, 🧠, 💡, 🔮) for UI icons. Use Lucide React icons.",
+    "Ensure generous spacing: containers with borders MUST have padding on text content to avoid collision.",
+    "Use `sonner` for toast notifications when adding properties to wishlist or copying WhatsApp links."
+  ]
+}

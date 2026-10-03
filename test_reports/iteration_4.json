@@ -1,0 +1,29 @@
+{
+  "summary": "Focused regression + new host feature testing. Backend: added TestHost class (6 new tests) to /app/backend/tests/backend_test.py covering default host on ps-01, 15 properties backfilled, PUT host (auth + unauth), host photo upload/delete + /api/files/ serving, and auth guards. Total 21/21 pytest tests pass. Frontend: /casa/ps-01 renders Conheça o anfitrião card (data-testid=host-card) between Sobre a casa and O que esta casa oferece, showing Família Fonseca, Anfitrião desde 2019, bio, Responde em até 1 hora, Português/Inglês. Admin /admin/casas/ps-01 shows Anfitrião section (admin-host-section) with admin-host-name/bio/upload inputs. Edited name to 'TEST_Carlos & Marina', uploaded tiny PNG via admin-host-upload (LABEL wrapping file input), saved — public page then rendered the updated name and the host-photo element. Restored defaults via API after test.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/backend_test.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "server.py now 486 lines — still within manageable but add_host_photo/delete_host_photo are near-duplicates of upload_photo/delete_photo logic for property photos; consider extracting a shared helper to upload-to-objstore + persist a path field (DRY).",
+    "HostInfo defaults use mutable list ['Português','Inglês'] via field default on BaseModel — pydantic v2 handles this correctly, but migration backfill (default_host = HostInfo().model_dump()) runs on every startup, which is idempotent via $exists filter — good.",
+    "POST /api/properties/{id}/host-photo does not delete the previous host.photo_storage_path when a new one is uploaded. Over time this orphans files in object storage. Delete old path before setting new.",
+    "Frontend host card renders 'Responde em até 1 hora' using host.response_time concatenated with 'Responde em até' prefix; backend already stores 'em até 1 hora' which yields 'Responde em até em até 1 hora' risk if admin changes response_time to include the prefix. Document the expected format or guard it.",
+    "AdminPropertyEdit.jsx — label wraps file input with data-testid on the LABEL rather than the input itself. Works for Playwright by walking down to inner input, but inconsistent with other data-testid conventions on real inputs."
+  ],
+  "updated_files": ["/app/backend/tests/backend_test.py"],
+  "success_rate": {"backend": "100% (21/21)", "frontend": "100% of host flows tested"},
+  "test_credentials": "Admin fonsecawork26@gmail.com / BahiaStay@2026 (from /app/memory/test_credentials.md)",
+  "seed_data_creation": "No new seed; test modifies ps-01 host and uploads a photo to ps-02, then restores defaults and deletes the host photo via API in teardown.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Host feature wiring: GET /api/properties/{id} returns host object with name/bio/photo/photo_storage_path/since/languages/response_time. PUT accepts host in payload (PropertyIn.host). POST /api/properties/{id}/host-photo and DELETE /api/properties/{id}/host-photo manage the photo. Public host card data-testids: host-card, host-name, host-photo. Admin edit data-testids: admin-host-section, admin-host-name, admin-host-bio, admin-host-upload (LABEL wrapping <input type=file>). All 15 seeded properties are backfilled with default host on startup via migration.",
+  "rca of the issue": "No bugs found."
+}

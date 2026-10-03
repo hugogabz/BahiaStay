@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ps-01",
+    "pricePerNight": 405.6,
+    "weeklyPrice": 2028.0,
+    "weeklyPackagePromo": 1456.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ps-02",
+    "pricePerNight": 166.4,
+    "weeklyPrice": 780.0,
+    "weeklyPackagePromo": 520.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ps-03",
+    "pricePerNight": 769.6,
+    "weeklyPrice": 4420.0,
+    "weeklyPackagePromo": 3380.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "il-01",
+    "pricePerNight": 322.4,
+    "weeklyPrice": 1612.0,
+    "weeklyPackagePromo": 1144.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "il-02",
+    "pricePerNight": 197.6,
+    "weeklyPrice": 1040.0,
+    "weeklyPackagePromo": 702.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "il-03",
+    "pricePerNight": 280.8,
+    "weeklyPrice": 1404.0,
+    "weeklyPackagePromo": 988.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ar-01",
+    "pricePerNight": 462.8,
+    "weeklyPrice": 2288.0,
+    "weeklyPackagePromo": 1612.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ar-02",
+    "pricePerNight": 582.4,
+    "weeklyPrice": 3068.0,
+    "weeklyPackagePromo": 2184.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ar-03",
+    "pricePerNight": 156.0,
+    "weeklyPrice": 780.0,
+    "weeklyPackagePromo": 520.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ar-04",
+    "pricePerNight": 509.6,
+    "weeklyPrice": 2600.0,
+    "weeklyPackagePromo": 1820.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "je-01",
+    "pricePerNight": 374.4,
+    "weeklyPrice": 1872.0,
+    "weeklyPackagePromo": 1352.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "fn-01",
+    "pricePerNight": 754.0,
+    "weeklyPrice": 4576.0,
+    "weeklyPackagePromo": 3224.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "bz-01",
+    "pricePerNight": 613.6,
+    "weeklyPrice": 3224.0,
+    "weeklyPackagePromo": 2288.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "mg-01",
+    "pricePerNight": 280.8,
+    "weeklyPrice": 1456.0,
+    "weeklyPackagePromo": 988.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "fl-01",
+    "pricePerNight": 353.6,
+    "weeklyPrice": 1768.0,
+    "weeklyPackagePromo": 1248.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1766068988505896040",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1387661319864956211",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_1493121924838455579",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_1764860011054934847",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1363701261158839358",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1265176684556864251",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_1513413581453337258",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_52329750",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_15951164",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-18",
+        "check_out": "2026-10-22"
+      },
+      {
+        "check_in": "2026-11-09",
+        "check_out": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "id": "ref_1627010943141996934",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-15",
+        "check_out": "2026-10-19"
+      },
+      {
+        "check_in": "2026-11-06",
+        "check_out": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id": "ref_4112414",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-16",
+        "check_out": "2026-10-20"
+      },
+      {
+        "check_in": "2026-11-07",
+        "check_out": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "ref_563531540908366859",
+    "pricePerNight": 156.0,
+    "weeklyPackagePromo": 1092.0,
+    "weeklyPrice": 1092.0,
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    },
+    "unavailableDates": [
+      {
+        "check_in": "2026-10-17",
+        "check_out": "2026-10-21"
+      },
+      {
+        "check_in": "2026-11-08",
+        "check_out": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "ref_1197977225843002743",
+    "pricePerNight": 430,
+    "weeklyPrice": 3010,
+    "weeklyPackagePromo": 2580,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_22239854",
+    "pricePerNight": 330,
+    "weeklyPrice": 2310,
+    "weeklyPackagePromo": 1980,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_741279599608716337",
+    "pricePerNight": 360,
+    "weeklyPrice": 2520,
+    "weeklyPackagePromo": 2160,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_918211601501342484",
+    "pricePerNight": 430,
+    "weeklyPrice": 3010,
+    "weeklyPackagePromo": 2580,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_12407566",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_17987444",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_30508256",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_40415041",
+    "pricePerNight": 530,
+    "weeklyPrice": 3710,
+    "weeklyPackagePromo": 3180,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_5989690",
+    "pricePerNight": 460,
+    "weeklyPrice": 3220,
+    "weeklyPackagePromo": 2760,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1180594489477703547",
+    "pricePerNight": 530,
+    "weeklyPrice": 3710,
+    "weeklyPackagePromo": 3180,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1364774916112300117",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1572458491944434952",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_732035158083792133",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_8140332",
+    "pricePerNight": 480,
+    "weeklyPrice": 3360,
+    "weeklyPackagePromo": 2880,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1583690591483045089",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_17278553",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_30039065",
+    "pricePerNight": 290,
+    "weeklyPrice": 2030,
+    "weeklyPackagePromo": 1740,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_48026016",
+    "pricePerNight": 460,
+    "weeklyPrice": 3220,
+    "weeklyPackagePromo": 2760,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_44463721",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_45740695",
+    "pricePerNight": 380,
+    "weeklyPrice": 2660,
+    "weeklyPackagePromo": 2280,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_46662335",
+    "pricePerNight": 510,
+    "weeklyPrice": 3570,
+    "weeklyPackagePromo": 3060,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_51563499",
+    "pricePerNight": 420,
+    "weeklyPrice": 2940,
+    "weeklyPackagePromo": 2520,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1266907865886182486",
+    "pricePerNight": 500,
+    "weeklyPrice": 3500,
+    "weeklyPackagePromo": 3000,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1292682562473610557",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_16235287",
+    "pricePerNight": 390,
+    "weeklyPrice": 2730,
+    "weeklyPackagePromo": 2340,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1731246497838866922",
+    "pricePerNight": 290,
+    "weeklyPrice": 2030,
+    "weeklyPackagePromo": 1740,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_1506673611242446076",
+    "pricePerNight": 180,
+    "weeklyPrice": 1260,
+    "weeklyPackagePromo": 1080,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_3231536",
+    "pricePerNight": 340,
+    "weeklyPrice": 2380,
+    "weeklyPackagePromo": 2040,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_42024641",
+    "pricePerNight": 240,
+    "weeklyPrice": 1680,
+    "weeklyPackagePromo": 1440,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  },
+  {
+    "id": "ref_826700696631973960",
+    "pricePerNight": 450,
+    "weeklyPrice": 3150,
+    "weeklyPackagePromo": 2700,
+    "priceStatus": "illustrative",
+    "pricingSource": "authorized_test_values",
+    "seasonalPricing": {
+      "newYearPercent": 40,
+      "julyPercent": 20
+    }
+  }
+]

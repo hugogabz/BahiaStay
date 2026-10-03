@@ -1,0 +1,29 @@
+{
+  "summary": "Full backend + frontend regression for new auth/admin/booking iteration. All 15 pytest backend tests pass (auth, properties public, admin CRUD, photo upload via Emergent object storage, bookings lifecycle). Frontend end-to-end flows validated: /admin unauthenticated redirect, wrong-password rejection, successful admin login, dashboard stat cards (15 casas / 0 pending / 0 approved), /admin/casas lists 15, Nova casa + save + photo upload, logout clears token. Property detail (/casa/:id) booking widget opens pt-BR calendar; 7-night range triggers Pacote Semana badge; Reservar via WhatsApp POSTs /api/bookings (200) and opens wa.me/5511981389572 URL with correct property/dates/total.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/backend_test.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "server.py defines `logger` at module bottom (line 428) but references `logger.info` inside @app.on_event('startup') (lines 203, 209, 226, 231, 233). Works today because startup runs after module load, but it is fragile ordering — move logging.basicConfig/getLogger above the startup handler.",
+    "Login endpoint sets cookie with secure=True + samesite='none' which is required for cross-site; fine for production but will not persist on plain http dev. Not an issue in current preview env.",
+    "CORS allow_origins defaults to '*' with allow_credentials=True — browsers reject credentialed requests with wildcard. Frontend currently uses Bearer header so it works, but tighten origins before production.",
+    "init_storage() is a synchronous requests call executed inside async handlers (upload_photo, download). For higher load, wrap storage I/O in a threadpool (run_in_executor) to avoid blocking the event loop.",
+    "server.py is 433 lines and still manageable, but auth/photo/booking concerns could be split into routers for clarity."
+  ],
+  "updated_files": ["/app/backend/tests/backend_test.py"],
+  "success_rate": {"backend": "100% (15/15)", "frontend": "100% of flows tested"},
+  "test_credentials": "Admin fonsecawork26@gmail.com / BahiaStay@2026 (from /app/memory/test_credentials.md)",
+  "seed_data_creation": "Backend auto-seeds 15 properties on first startup from /app/backend/seed_properties.json. Admin seeded from ADMIN_EMAIL/ADMIN_PASSWORD env. During testing I created and cleaned up TEST_ properties and bookings; final property count = 15.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Frontend route for property detail is /casa/:id (NOT /property/:id). Admin area is /admin/* with ProtectedRoute. Token stored at localStorage.bahiastay_token. WhatsApp number 5511981389572 verified end-to-end. Backend objstore upload returns /api/files/{path} and the file-streaming endpoint serves bytes with correct Content-Type. Photo upload confirmed working against live Emergent integration proxy.",
+  "rca of the issue": "No bugs found."
+}
