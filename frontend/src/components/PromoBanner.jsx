@@ -44,7 +44,7 @@ export const PromoBanner = () => {
             </h3>
             <p className="mt-3 text-white/85 text-sm sm:text-base max-w-md">
               Nunca ficou com a gente? Marque &quot;1ª reserva&quot; na página da casa e abata mais
-              10% sobre o total final — direto no WhatsApp.
+              Confira as condições e o valor final antes de reservar.
             </p>
             <a
               href="#destinos"

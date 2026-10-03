@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
 import { DayPicker } from 'react-day-picker';
 import { ptBR } from 'date-fns/locale';
 import 'react-day-picker/dist/style.css';
 import { dateError, localDate, quoteStay, overlapsStay, seasonForDate, DEFAULT_SEASONAL_PRICING } from '@/lib/stay';
-import { supportUrl } from '@/lib/whatsapp';
 import TestCheckout from '@/components/TestCheckout';
 const brl = v => Number(v || 0).toLocaleString('pt-BR', {
   style: 'currency',
@@ -79,7 +77,6 @@ export default function ReservationEstimate({
       setTouched(false);
     }}>Limpar datas</button>}
   <div className="estimate-breakdown" aria-live="polite" data-testid="property-modal-price-breakdown">{hasPrice && quote.nights > 0 && !capacityError ? <><p><span>{brl(property.pricePerNight)} × {quote.nights} {quote.nights === 1 ? 'noite' : 'noites'}</span><span>{brl(quote.baseTotal)}</span></p>{quote.seasonalPeriods.map(period => <p key={period.label}><span>{period.label} +{period.percent}%<small className="season-nights">{period.nights} {period.nights === 1 ? 'noite' : 'noites'}</small></span><span>+{brl(period.extra)}</span></p>)}{quote.weeklyApplied && <p><span>Ajuste do pacote de 7 noites</span><span>-{brl(quote.nightlyTotal - quote.total)}</span></p>}<p className="estimate-total"><span>Total estimado</span><strong data-testid="booking-total">{brl(quote.total)}</strong></p><p className="helper-text">Taxas adicionais e condições finais devem ser confirmadas com o atendimento.</p></> : <p className="helper-text">{hasPrice ? 'Selecione datas disponíveis e a quantidade de hóspedes para calcular a estadia.' : 'Confirme o valor do período com o atendimento.'}</p>}</div>
-  <Button asChild className="primary-action reservation-contact"><a href={supportUrl(`Olá! Gostaria de saber mais sobre ${property.title}.${!error && !capacityError && start && end ? ` Período: ${start} a ${end}, ${guests} hóspede(s).` : ''}`)} target="_blank" rel="noopener noreferrer">Combinar reserva pelo WhatsApp</a></Button><p className="helper-text">A reserva é confirmada com o atendimento pelo WhatsApp.</p>
   <TestCheckout propertyId={property.id} start={start} end={end} guests={guests} valid={Boolean(hasPrice && start && end && !error && !capacityError)} />
  </aside>;
 }

@@ -154,7 +154,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section id="como-funciona" ref={howRef} className="page-container how-section"><p className="eyebrow">Da escolha à chegada</p><h2>Vamos combinar sua estadia?</h2><div className="how-grid"><div><span className="how-step" aria-hidden="true">01</span><h3>Veja as casas</h3><p>Fotos, localização e o que cada espaço oferece.</p></div><div><span className="how-step" aria-hidden="true">02</span><h3>Marque os dias</h3><p>O calendário mostra a disponibilidade e o valor do período.</p></div><div><span className="how-step" aria-hidden="true">03</span><h3>Fale com a gente</h3><p>Pelo WhatsApp, acertamos a reserva e os detalhes da chegada.</p></div></div></section>
+      <section id="como-funciona" ref={howRef} className="page-container how-section"><p className="eyebrow">Da escolha à chegada</p><h2>Vamos combinar sua estadia?</h2><div className="how-grid"><div><span className="how-step" aria-hidden="true">01</span><h3>Veja as casas</h3><p>Fotos, localização e o que cada espaço oferece.</p></div><div><span className="how-step" aria-hidden="true">02</span><h3>Marque os dias</h3><p>O calendário mostra a disponibilidade e o valor do período.</p></div><div><span className="how-step" aria-hidden="true">03</span><h3>Finalize no site</h3><p>Confira o total e siga para o pagamento online. A confirmação aparece no site.</p></div></div></section>
     </main>
     <Footer />
   </div>;

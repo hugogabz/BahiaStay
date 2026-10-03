@@ -73,7 +73,7 @@ export default function AdminBookings() {
       <p className="text-[11px] uppercase tracking-[0.22em] text-[#A19585]">Painel</p>
       <h1 className="font-display font-extrabold text-3xl text-[#1c1c1e] mt-1">Reservas</h1>
       <p className="text-sm text-[#6E6E73] mt-1">
-        Toda vez que um cliente abre o WhatsApp pela página de uma casa, a solicitação aparece aqui.
+        As reservas iniciadas pelo checkout do site aparecem aqui.
         Aprove para bloquear as datas no calendário público.
       </p>
 

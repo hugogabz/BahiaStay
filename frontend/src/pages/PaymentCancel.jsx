@@ -23,7 +23,7 @@ export default function PaymentCancel() {
               <ArrowLeft className="w-4 h-4" /> Voltar para a Home
             </Link>
             <Button onClick={() => openSupportChat()} className="rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white">
-              <MessageCircle className="w-4 h-4 mr-2" /> Falar no WhatsApp
+              <MessageCircle className="w-4 h-4 mr-2" /> Suporte pelo WhatsApp
             </Button>
           </div>
         </div>

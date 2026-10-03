@@ -78,8 +78,8 @@ export default function PaymentSuccess() {
               <Button onClick={() => navigate("/")} className="rounded-full bg-[#1A5E63] hover:bg-[#124146] text-white" data-testid="payment-home-btn">
                 <HomeIcon className="w-4 h-4 mr-2" /> Voltar para a Home
               </Button>
-              <Button onClick={() => openSupportChat("Olá! Acabei de confirmar o pagamento da minha reserva.")} variant="outline" className="rounded-full border-[#e6dfd5]">
-                <MessageCircle className="w-4 h-4 mr-2" /> Falar no WhatsApp
+              <Button onClick={() => openSupportChat("Olá! Preciso de suporte sobre o pagamento da minha reserva.")} variant="outline" className="rounded-full border-[#e6dfd5]">
+                <MessageCircle className="w-4 h-4 mr-2" /> Suporte pelo WhatsApp
               </Button>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function PaymentSuccess() {
               O pagamento ainda não foi confirmado. Consulte o status junto ao responsável pelo imóvel antes de tentar novamente.
             </p>
             <Button onClick={() => openSupportChat()} className="mt-6 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white">
-              <MessageCircle className="w-4 h-4 mr-2" /> Falar no WhatsApp
+              <MessageCircle className="w-4 h-4 mr-2" /> Suporte pelo WhatsApp
             </Button>
           </div>
         )}
@@ -110,7 +110,7 @@ export default function PaymentSuccess() {
             <h1 className="font-display font-extrabold text-2xl mt-5">Não encontramos esse pagamento</h1>
             <p className="text-sm text-[#6E6E73] mt-2">Verifique o link ou fale com o nosso time.</p>
             <Button onClick={() => openSupportChat()} className="mt-6 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white">
-              <MessageCircle className="w-4 h-4 mr-2" /> Falar no WhatsApp
+              <MessageCircle className="w-4 h-4 mr-2" /> Suporte pelo WhatsApp
             </Button>
           </div>
         )}

@@ -15,10 +15,12 @@ beforeEach(() => {
 afterEach(() => { act(() => root.unmount()); container.remove(); jest.useRealTimers(); });
 const render = () => act(async () => root.render(<TestCheckout propertyId="example" start="2030-11-20" end="2030-11-22" guests={2} valid />));
 
-test('unconfigured payment stays hidden and never creates a booking', async () => {
+test('unconfigured checkout stays visible and disabled without creating a booking', async () => {
   api.get.mockResolvedValue({ data: { enabled: false, provider: 'coldpay', test_mode: true } });
   await render();
-  expect(container.querySelector('button')).toBeNull();
+  expect(container.querySelector('button').disabled).toBe(true);
+  expect(container.textContent).toContain('O pagamento online ainda não está disponível');
+  await act(async () => container.querySelector('button').click());
   expect(api.post).not.toHaveBeenCalled();
 });
 

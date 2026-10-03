@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function TestCheckout({ propertyId, start, end, guests, valid }) {
   const [enabled, setEnabled] = useState(false);
+  const [configState, setConfigState] = useState('loading');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [provider, setProvider] = useState('');
@@ -14,8 +15,8 @@ export default function TestCheckout({ propertyId, start, end, guests, valid }) 
   useEffect(() => {
     let active = true;
     api.get('/payments/config').then(({ data }) => {
-      if (active) { setEnabled(data.enabled && data.test_mode); setProvider(data.provider); }
-    }).catch(() => {});
+      if (active) { setEnabled(data.enabled && data.test_mode); setProvider(data.provider); setConfigState('ready'); }
+    }).catch(() => { if (active) setConfigState('error'); });
     return () => { active = false; };
   }, []);
   useEffect(() => { setPix(null); setPaid(false); setCopied(false); }, [propertyId, start, end, guests]);
@@ -34,6 +35,7 @@ export default function TestCheckout({ propertyId, start, end, guests, valid }) 
     return () => { active = false; clearTimeout(timer); };
   }, [pix, paid]);
   const checkout = async () => {
+    if (!enabled || !valid || busy) return;
     setBusy(true);
     setError('');
     const selection = JSON.stringify([propertyId, start, end, guests]);
@@ -56,12 +58,11 @@ export default function TestCheckout({ propertyId, start, end, guests, valid }) 
       setBusy(false);
     }
   };
-  if (!enabled) return null;
   return <div className="test-checkout">
-    {!pix && <Button type="button" variant="outline" className="test-checkout-button" disabled={!valid || busy} onClick={checkout}>
-      {busy ? 'Preparando pagamento…' : provider === 'coldpay' ? 'Testar pagamento com PIX' : 'Testar pagamento com cartão'}
+    {!pix && <Button type="button" className="primary-action test-checkout-button" disabled={!enabled || !valid || busy} onClick={checkout}>
+      {configState === 'loading' ? 'Carregando pagamento…' : busy ? 'Preparando pagamento…' : !enabled ? 'Pagamento indisponível' : provider === 'coldpay' ? 'Continuar com PIX' : 'Continuar para pagamento'}
     </Button>}
-    <p className="helper-text">Ambiente de teste. Sem cobrança real.</p>
+    <p className="helper-text" role={!enabled ? 'status' : undefined}>{configState === 'loading' ? 'Consultando as opções de pagamento.' : configState === 'error' ? 'Não foi possível carregar o pagamento. Atualize a página para tentar novamente.' : !enabled ? 'O pagamento online ainda não está disponível. Nenhuma reserva ou cobrança será criada.' : 'Ambiente de teste. Sem cobrança real. A reserva é confirmada após a aprovação do pagamento.'}</p>
     {pix && !paid && <div className="pix-checkout">
       <img src={pix.qr_code} alt="QR Code PIX do ambiente de teste" width="200" height="200" />
       <label htmlFor="pix-code">PIX copia e cola</label>

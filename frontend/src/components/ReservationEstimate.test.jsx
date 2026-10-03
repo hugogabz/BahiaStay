@@ -20,11 +20,17 @@ test('an unconfirmed nightly rate shows consultation instead of a zero-price res
   expect(container.querySelector('.estimate-breakdown').textContent).toContain('Confirme o valor');
 });
 
-test('a range spanning occupied nights has no price or reserved dates in its contact link', async () => {
+test('a range spanning occupied nights cannot proceed to payment', async () => {
   await renderStay('entrada=2030-10-14&saida=2030-10-20');
   expect(container.querySelector('[role=alert]').textContent).toContain('já reservadas');
   expect(container.querySelector('[data-testid=booking-total]')).toBeNull();
-  expect(container.querySelector('.reservation-contact').href).not.toContain('Per%C3%ADodo');
+  expect(container.querySelector('.test-checkout-button').disabled).toBe(true);
+});
+
+test('reservation uses onsite payment and has no WhatsApp booking link', async () => {
+  await renderStay('entrada=2030-10-20&saida=2030-10-22');
+  expect(container.querySelector('a[href*="wa.me"]')).toBeNull();
+  expect(container.textContent).not.toContain('confirmada com o atendimento pelo WhatsApp');
 });
 
 test('arrival on a previous reservation checkout is allowed', async () => {

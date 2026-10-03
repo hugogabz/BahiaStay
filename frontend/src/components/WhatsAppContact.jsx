@@ -6,8 +6,8 @@ export default function WhatsAppContact() {
     pathname
   } = useLocation();
   if (pathname.startsWith('/admin') || pathname.startsWith('/pagamento')) return null;
-  return <a className="whatsapp-contact" href={supportUrl()} target="_blank" rel="noopener noreferrer" aria-label="Falar com Bahia Stay pelo WhatsApp (abre em outra aba)" data-testid="whatsapp-contact">
+  return <a className="whatsapp-contact" href={supportUrl()} target="_blank" rel="noopener noreferrer" aria-label="Suporte Bahia Stay pelo WhatsApp (abre em outra aba)" data-testid="whatsapp-contact">
     <MessageCircle size={22} aria-hidden="true" />
-    <span>Fale pelo WhatsApp</span>
+    <span>Suporte</span>
   </a>;
 }
