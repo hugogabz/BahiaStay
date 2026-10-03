@@ -13,7 +13,24 @@ beforeEach(() => {
   root = createRoot(container);
 });
 afterEach(() => { act(() => root.unmount()); container.remove(); jest.useRealTimers(); });
-const render = () => act(async () => root.render(<TestCheckout propertyId="example" start="2030-11-20" end="2030-11-22" guests={2} valid />));
+const render = async (withContact = true) => {
+  await act(async () => root.render(<TestCheckout propertyId="example" start="2030-11-20" end="2030-11-22" guests={2} valid />));
+  if (withContact) for (const [id, value] of [['checkout-name', 'Pessoa de teste'], ['checkout-email', 'teste@example.com']]) {
+    const input = container.querySelector('#' + id);
+    if (input) await act(async () => {
+      Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, value);
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+  }
+};
+
+test('checkout needs guest identification and attaches it to the reservation', async () => {
+  await render(false);
+  expect(container.querySelector('button').disabled).toBe(true);
+  await render();
+  await act(async () => container.querySelector('button').click());
+  expect(api.post.mock.calls.find(([path]) => path === '/bookings')[1]).toMatchObject({guest_name:'Pessoa de teste',guest_contact:'teste@example.com'});
+});
 
 test('unconfigured checkout stays visible and disabled without creating a booking', async () => {
   api.get.mockResolvedValue({ data: { enabled: false, provider: 'coldpay', test_mode: true } });

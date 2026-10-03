@@ -24,6 +24,13 @@ class DocumentStorageRules(unittest.TestCase):
         with self.assertRaises(ValueError):
             where({'title': {'$where': 'arbitrary code'}})
 
+    def test_host_photo_updates_nested_host_without_flat_keys(self):
+        original = {'host': {'name': 'Maria', 'photo': None}}
+        changed = apply_update(original, {'$set': {'host.photo': 'https://photo.example/image.jpg'}})
+        self.assertEqual(changed['host']['photo'], 'https://photo.example/image.jpg')
+        self.assertNotIn('host.photo', changed)
+        self.assertIsNone(original['host']['photo'])
+
 
 if __name__ == '__main__':
     unittest.main()

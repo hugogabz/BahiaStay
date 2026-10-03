@@ -48,7 +48,12 @@ def apply_update(document, update):
     result = copy.deepcopy(document)
     if set(update) - {'$set', '$unset', '$push', '$pull'}:
         raise ValueError('Unsupported database update')
-    result.update(update.get('$set', {}))
+    for field, value in update.get('$set', {}).items():
+        target = result
+        parts = field.split('.')
+        for part in parts[:-1]:
+            target = target.setdefault(part, {})
+        target[parts[-1]] = value
     for field in update.get('$unset', {}):
         result.pop(field, None)
     for field, value in update.get('$push', {}).items():

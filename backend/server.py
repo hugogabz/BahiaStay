@@ -28,6 +28,7 @@ from pydantic import BaseModel, EmailStr, Field, ConfigDict, model_validator
 from io import BytesIO
 from booking_price import price_booking
 from catalog_identity import enrich_catalog_identity
+from photo_storage import upload_image, MAX_IMAGE_BYTES, StorageUnavailable, storage_configured
 from coldpayments import Coldpayments, sandbox_enabled, verify_signature
 from starlette.concurrency import run_in_threadpool
 from session_security import trusted_origins, require_admin_request, session_cookie_options
@@ -203,8 +204,8 @@ class BookingCreate(BaseModel):
     check_in: str
     check_out: str
     guests: int = Field(ge=1, le=100)
-    guest_name: Optional[str] = None
-    guest_contact: Optional[str] = None
+    guest_name: Optional[str] = Field(default=None, max_length=120)
+    guest_contact: Optional[str] = Field(default=None, max_length=254)
     total: Optional[float] = None
 
 class BookingStatusUpdate(BaseModel):
@@ -287,11 +288,11 @@ async def startup():
     )
 
 
-    try:
-        init_storage()
-        logger.info("Object storage initialized")
-    except Exception as e:
-        logger.warning("Storage init deferred: %s", e)
+    if EMERGENT_KEY:
+        try:
+            await run_in_threadpool(init_storage)
+        except Exception:
+            logger.warning("Legacy storage unavailable")
 
 
 @api_router.post("/auth/login", response_model=LoginResponse)
@@ -409,16 +410,16 @@ async def upload_photo(pid: str, file: UploadFile = File(...), _: dict = Depends
     ext = (file.filename or "jpg").rsplit(".", 1)[-1].lower() or "jpg"
     if ext not in ("jpg", "jpeg", "png", "webp", "gif"):
         raise HTTPException(status_code=400, detail="Only image files are accepted")
-    data = await file.read()
+    data = await file.read(MAX_IMAGE_BYTES + 1)
     photo_id = f"ph_{uuid.uuid4().hex[:12]}"
     path = f"{APP_NAME}/properties/{pid}/{photo_id}.{ext}"
-    content_type = file.content_type or f"image/{ 'jpeg' if ext == 'jpg' else ext }"
     try:
-        put_object(path, data, content_type)
-    except Exception as e:
-        logger.exception("Upload failed")
-        raise HTTPException(status_code=500, detail=f"Upload failed: {e}")
-    photo = {"id": photo_id, "url": f"/api/files/{path}", "storage_path": path}
+        asset = await run_in_threadpool(upload_image, data, path.rsplit('.', 1)[0])
+    except ValueError as error:
+        raise HTTPException(400, str(error))
+    except StorageUnavailable as error:
+        raise HTTPException(503, str(error))
+    photo = {"id": photo_id, **asset}
     await db.properties.update_one(
         {"id": pid},
         {"$push": {"photos": photo}, "$set": {"updated_at": datetime.now(timezone.utc).isoformat()}},
@@ -443,15 +444,15 @@ async def upload_host_photo(pid: str, file: UploadFile = File(...), _: dict = De
     ext = (file.filename or "jpg").rsplit(".", 1)[-1].lower() or "jpg"
     if ext not in ("jpg", "jpeg", "png", "webp"):
         raise HTTPException(status_code=400, detail="Only image files are accepted")
-    data = await file.read()
+    data = await file.read(MAX_IMAGE_BYTES + 1)
     path = f"{APP_NAME}/hosts/{pid}/{uuid.uuid4().hex[:12]}.{ext}"
-    content_type = file.content_type or f"image/{ 'jpeg' if ext == 'jpg' else ext }"
     try:
-        put_object(path, data, content_type)
-    except Exception as e:
-        logger.exception("Host upload failed")
-        raise HTTPException(status_code=500, detail=f"Upload failed: {e}")
-    url = f"/api/files/{path}"
+        asset = await run_in_threadpool(upload_image, data, path.rsplit('.', 1)[0])
+    except ValueError as error:
+        raise HTTPException(400, str(error))
+    except StorageUnavailable as error:
+        raise HTTPException(503, str(error))
+    url, path = asset['url'], asset['storage_path']
     await db.properties.update_one(
         {"id": pid},
         {"$set": {
@@ -511,6 +512,10 @@ async def create_booking(body: BookingCreate):
 async def admin_bookings(_: dict = Depends(get_current_admin)):
     cursor = db.bookings.find({}, {"_id": 0}).sort("created_at", -1)
     return [doc async for doc in cursor]
+
+@api_router.get('/admin/storage-status')
+async def admin_storage_status(_: dict = Depends(get_current_admin)):
+    return {'configured': storage_configured(), 'provider': 'cloudinary', 'max_image_mb': 3}
 
 @api_router.patch("/admin/bookings/{bid}")
 async def admin_update_booking(bid: str, body: BookingStatusUpdate, _: dict = Depends(get_current_admin)):

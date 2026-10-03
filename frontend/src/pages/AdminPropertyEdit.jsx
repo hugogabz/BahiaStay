@@ -40,6 +40,12 @@ export default function AdminPropertyEdit() {
   const [property, setProperty] = useState(null);
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState(false);
+  const [storageReady, setStorageReady] = useState(null);
+  useEffect(() => {
+    let active = true;
+    api.get('/admin/storage-status').then(({data}) => { if (active) setStorageReady(data.configured); }).catch(() => { if (active) setStorageReady(false); });
+    return () => { active = false; };
+  }, []);
 
   const load = useCallback(async () => {
     try {
@@ -87,15 +93,15 @@ export default function AdminPropertyEdit() {
         amenities: property.amenities || [],
         images: (property.photos || []).map((p) => p.url),
         host: {
-          name: h.name || "Família Fonseca",
+          name: h.name || "",
           bio: h.bio || "",
           photo: h.photo || null,
           photo_storage_path: h.photo_storage_path || null,
-          since: h.since ? Number(h.since) : (property.demoReference ? null : 2019),
+          since: h.since ? Number(h.since) : null,
           languages: typeof h.languages === "string"
             ? h.languages.split(",").map((s) => s.trim()).filter(Boolean)
             : (h.languages || []),
-          response_time: h.response_time || (property.demoReference ? "" : "em até 1 hora"),
+          response_time: h.response_time || "",
         },
       };
       const { data } = await api.put(`/properties/${id}`, payload);
@@ -113,6 +119,7 @@ export default function AdminPropertyEdit() {
   const uploadHostPhoto = async (ev) => {
     const file = ev.target.files?.[0];
     if (!file) return;
+    if (file.size > 3 * 1024 * 1024) { toast.error('Envie uma imagem de até 3 MB.'); ev.target.value = ''; return; }
     try {
       const form = new FormData();
       form.append("file", file);
@@ -121,8 +128,8 @@ export default function AdminPropertyEdit() {
       });
       updateHost({ photo: data.url, photo_storage_path: data.storage_path });
       toast.success("Foto do anfitrião atualizada");
-    } catch {
-      toast.error("Erro ao enviar foto do anfitrião");
+    } catch (error) {
+      toast.error(typeof error.response?.data?.detail === 'string' ? error.response.data.detail : "Erro ao enviar foto do anfitrião");
     } finally {
       ev.target.value = "";
     }
@@ -141,6 +148,7 @@ export default function AdminPropertyEdit() {
   const onFile = async (ev) => {
     const files = Array.from(ev.target.files || []);
     if (!files.length) return;
+    if (files.some(file => file.size > 3 * 1024 * 1024)) { toast.error('Cada foto deve ter até 3 MB.'); ev.target.value = ''; return; }
     setUploading(true);
     try {
       for (const f of files) {
@@ -153,7 +161,7 @@ export default function AdminPropertyEdit() {
       }
       toast.success(`${files.length} foto${files.length === 1 ? "" : "s"} enviada${files.length === 1 ? "" : "s"}`);
     } catch (e) {
-      toast.error("Erro no upload. Verifique o formato (JPG/PNG) e tente novamente.");
+      toast.error(typeof e.response?.data?.detail === 'string' ? e.response.data.detail : "Erro no upload. Envie uma imagem JPG, PNG ou WebP de até 3 MB.");
     } finally {
       setUploading(false);
       if (fileInput.current) fileInput.current.value = "";
@@ -192,7 +200,8 @@ export default function AdminPropertyEdit() {
 
       <section className="mt-8 bg-white border border-[#e6dfd5] rounded-2xl p-6">
         <h3 className="font-display font-bold text-lg text-[#1c1c1e]">Fotos da casa</h3>
-        <p className="text-sm text-[#6E6E73] mt-1">A primeira foto é usada como capa. Formatos aceitos: JPG, PNG, WEBP.</p>
+        <p className="text-sm text-[#6E6E73] mt-1">A primeira foto é usada como capa. JPG, PNG ou WebP, até 3 MB por imagem.</p>
+        {storageReady === false && <p className="field-error" role="status">O envio de novas fotos precisa das credenciais do Cloudinary no projeto da API na Vercel. As fotos atuais continuam disponíveis.</p>}
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
           {(property.photos || []).map((ph) => (
             <div key={ph.id} className="relative aspect-[4/3] rounded-xl overflow-hidden bg-[#f4efea] group" data-testid={`admin-photo-${ph.id}`}>
@@ -211,7 +220,7 @@ export default function AdminPropertyEdit() {
             <div className="text-center">
               <UploadCloud className="w-6 h-6 mx-auto text-[#1A5E63]" />
               <p className="text-xs font-semibold mt-1 text-[#1c1c1e]">{uploading ? "Enviando…" : "Enviar fotos"}</p>
-              <p className="text-[10px] text-[#A19585]">até 10 MB cada</p>
+              <p className="text-[10px] text-[#A19585]">até 3 MB cada</p>
             </div>
             <input ref={fileInput} type="file" multiple accept="image/*" onChange={onFile} className="hidden" />
           </label>
