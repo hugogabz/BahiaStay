@@ -1,12 +1,12 @@
 import { act } from 'react';
 import { createRoot } from 'react-dom/client';
-import { MemoryRouter } from 'react-router-dom';
+import { MemoryRouter, useLocation } from 'react-router-dom';
 import Home from './Home';
 import { api } from '../lib/api';
 jest.mock('../lib/api',()=>({api:{get:jest.fn()},fileUrl:v=>v}));
 let container,root;
-beforeEach(()=>{container=document.createElement('div');document.body.appendChild(container);root=createRoot(container);jest.clearAllMocks();});
-afterEach(()=>{act(()=>root.unmount());container.remove();});
+beforeEach(()=>{localStorage.clear();container=document.createElement('div');document.body.appendChild(container);root=createRoot(container);jest.clearAllMocks();});
+afterEach(()=>{act(()=>root.unmount());container.remove();localStorage.clear();});
 test('catalog load failure is distinct from empty results, and retry recovers',async()=>{
  api.get.mockRejectedValueOnce(new Error('offline')).mockResolvedValueOnce({data:[]});
  await act(async()=>root.render(<MemoryRouter><Home/></MemoryRouter>));
@@ -32,4 +32,47 @@ test('a maximum-price filter does not treat an unconfirmed rate as free', async 
  await act(async()=>root.render(<MemoryRouter initialEntries={['/?max=400']}><Home/></MemoryRouter>));
  expect(container.querySelector('[data-testid=results-count]').textContent).toBe('1 casa encontrada');
  expect(container.querySelector('.property-card h3 a').href).toContain('/casa/priced');
+});
+
+test('saved houses view lists favorites and immediately removes unliked houses', async () => {
+ const base={title:'Casa teste',destination:'salvador',neighborhood:'Praia',guests:4,bedrooms:2,pricePerNight:300,images:[]};
+ localStorage.setItem('bahiastay_favorites',JSON.stringify(['saved']));
+ api.get.mockResolvedValue({data:[{...base,id:'saved'},{...base,id:'other'}]});
+ await act(async()=>root.render(<MemoryRouter initialEntries={['/?salvas=1']}><Home/></MemoryRouter>));
+ expect(container.querySelectorAll('.property-card')).toHaveLength(1);
+ expect(container.querySelector('.property-card h3 a').href).toContain('/casa/saved');
+ await act(async()=>container.querySelector('.favorite-button').click());
+ expect(container.querySelectorAll('.property-card')).toHaveLength(0);
+ expect(container.textContent).toContain('Você ainda não salvou nenhuma casa');
+ expect(JSON.parse(localStorage.getItem('bahiastay_favorites'))).toEqual([]);
+});
+
+test('clearing filters keeps the saved view and restores other saved matches', async () => {
+ const base={title:'Casa teste',neighborhood:'Praia',guests:4,bedrooms:2,pricePerNight:300,images:[]};
+ localStorage.setItem('bahiastay_favorites',JSON.stringify(['one','two']));
+ api.get.mockResolvedValue({data:[{...base,id:'one',destination:'salvador'},{...base,id:'two',destination:'ilheus'},{...base,id:'other',destination:'salvador'}]});
+ await act(async()=>root.render(<MemoryRouter initialEntries={['/?salvas=1&destino=salvador']}><Home/></MemoryRouter>));
+ expect(container.querySelectorAll('.property-card')).toHaveLength(1);
+ await act(async()=>container.querySelector('[data-testid=filter-clear-btn]').click());
+ expect(container.querySelectorAll('.property-card')).toHaveLength(2);
+ expect(container.querySelector('[data-testid=saved-houses-toggle]').getAttribute('aria-pressed')).toBe('true');
+});
+
+test('saved control updates as houses are liked and works without a login', async () => {
+ api.get.mockResolvedValue({data:[{id:'one',title:'Casa teste',destination:'salvador',guests:4,bedrooms:2,pricePerNight:300,images:[]}]});
+ await act(async()=>root.render(<MemoryRouter><Home/></MemoryRouter>));
+ expect(container.querySelector('[data-testid=saved-houses-toggle]').textContent).toContain('0');
+ await act(async()=>container.querySelector('.favorite-button').click());
+ expect(container.querySelector('[data-testid=saved-houses-toggle]').textContent).toContain('1');
+ await act(async()=>container.querySelector('[data-testid=saved-houses-toggle]').click());
+ expect(container.querySelector('[data-testid=saved-houses-toggle]').getAttribute('aria-pressed')).toBe('true');
+ expect(container.querySelectorAll('.property-card')).toHaveLength(1);
+});
+
+test('switching catalogue views preserves the section anchor and active filters', async () => {
+ function LocationProbe() { const location=useLocation();return <output data-testid="location">{location.search}{location.hash}</output>; }
+ api.get.mockResolvedValue({data:[]});
+ await act(async()=>root.render(<MemoryRouter initialEntries={['/?destino=salvador#destinos']}><Home/><LocationProbe/></MemoryRouter>));
+ await act(async()=>container.querySelector('[data-testid=saved-houses-toggle]').click());
+ expect(container.querySelector('[data-testid=location]').textContent).toBe('?destino=salvador&salvas=1#destinos');
 });
