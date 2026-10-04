@@ -28,6 +28,7 @@ from pydantic import BaseModel, EmailStr, Field, ConfigDict, model_validator
 from io import BytesIO
 from booking_price import price_booking
 from catalog_identity import enrich_catalog_identity
+from admin_credentials import credentials_match
 from photo_storage import upload_image, MAX_IMAGE_BYTES, StorageUnavailable, storage_configured
 from coldpayments import Coldpayments, sandbox_enabled, verify_signature
 from starlette.concurrency import run_in_threadpool
@@ -300,7 +301,7 @@ async def login(body: LoginRequest, response: Response, request: Request):
     require_admin_request(request)
     email = body.email.lower().strip()
     user = await db.users.find_one({"email": email})
-    if not user or not verify_password(body.password, user["password_hash"]):
+    if not credentials_match(email, body.password) or not user or user.get('role') != 'admin':
         raise HTTPException(status_code=401, detail="Email ou senha inválidos")
     token = create_access_token(user["user_id"], email)
 

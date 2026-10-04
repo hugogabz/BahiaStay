@@ -19,7 +19,7 @@ class CookieAuth(unittest.IsolatedAsyncioTestCase):
         self.users.find_one.return_value = {**ADMIN, 'password_hash': 'mock-hash'}
         self.db_patch = patch.object(server.db, 'users', self.users)
         self.db_patch.start()
-        self.env_patch = patch.dict(os.environ, {'CORS_ORIGINS': ORIGIN, 'AUTH_COOKIE_SAMESITE': 'none'})
+        self.env_patch = patch.dict(os.environ, {'CORS_ORIGINS': ORIGIN, 'AUTH_COOKIE_SAMESITE': 'none', 'ADMIN_EMAIL': 'Admin', 'ADMIN_PASSWORD': 'example'})
         self.env_patch.start()
 
     def tearDown(self):
@@ -34,13 +34,21 @@ class CookieAuth(unittest.IsolatedAsyncioTestCase):
 
     async def test_login_returns_only_user_and_sets_protected_cookie(self):
         response = Response()
-        with patch.object(server, 'verify_password', return_value=True):
-            result = await server.login(server.LoginRequest(email='admin', password='example'), response, self.request(headers=HEADERS))
+        result = await server.login(server.LoginRequest(email='admin', password='example'), response, self.request(headers=HEADERS))
         self.assertEqual(set(result), {'user'})
         cookie = response.headers['set-cookie'].lower()
         for attribute in ['httponly', 'secure', 'samesite=none', 'path=/']:
             self.assertIn(attribute, cookie)
         self.assertNotIn('password_hash', result['user'])
+
+    async def test_login_rejects_old_password_and_non_admin_record(self):
+        with self.assertRaises(HTTPException) as error:
+            await server.login(server.LoginRequest(email='admin', password='old'), Response(), self.request(headers=HEADERS))
+        self.assertEqual(error.exception.status_code, 401)
+        self.users.find_one.return_value = {**ADMIN, 'role': 'guest'}
+        with self.assertRaises(HTTPException) as error:
+            await server.login(server.LoginRequest(email='admin', password='example'), Response(), self.request(headers=HEADERS))
+        self.assertEqual(error.exception.status_code, 401)
 
     async def test_login_blocks_foreign_origin_and_missing_csrf_header(self):
         for headers in [{'Origin': ORIGIN}, {'Origin': 'https://attacker.example', 'X-CSRF-Protection': '1'}, {'X-CSRF-Protection': '1'}]:
