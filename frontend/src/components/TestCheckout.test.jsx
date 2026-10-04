@@ -5,7 +5,9 @@ import { api } from '../lib/api';
 jest.mock('../lib/api', () => ({ api: { get: jest.fn(), post: jest.fn() } }));
 
 let container, root;
+const onConfirmed = jest.fn();
 beforeEach(() => {
+  onConfirmed.mockClear();
   api.get.mockResolvedValue({ data: { enabled: true, provider: 'coldpay', test_mode: true } });
   api.post.mockImplementation(path => Promise.resolve({ data: path === '/bookings'
     ? { id: 'example' } : { provider: 'coldpay', test_mode: true, session_id: 'cp_example', copy_paste: 'PIX-EXEMPLO', qr_code: 'data:image/png;base64,ZXhhbXBsZQ==' } }));
@@ -14,7 +16,7 @@ beforeEach(() => {
 });
 afterEach(() => { act(() => root.unmount()); container.remove(); jest.useRealTimers(); });
 const render = async (withContact = true) => {
-  await act(async () => root.render(<TestCheckout propertyId="example" start="2030-11-20" end="2030-11-22" guests={2} valid />));
+  await act(async () => root.render(<TestCheckout propertyId="example" start="2030-11-20" end="2030-11-22" guests={2} valid onConfirmed={onConfirmed} />));
   if (withContact) for (const [id, value] of [['checkout-name', 'Pessoa de teste'], ['checkout-email', 'teste@example.com']]) {
     const input = container.querySelector('#' + id);
     if (input) await act(async () => {
@@ -52,6 +54,7 @@ test('PIX renders QR and code, then waits for paid status before confirmation', 
   await act(async () => jest.advanceTimersByTime(15000));
   expect(container.querySelector('[role=status]').textContent).toContain('confirmado');
   expect(container.querySelector('img')).toBeNull();
+  expect(onConfirmed).toHaveBeenCalledWith('cp_example');
 });
 
 test('failed checkout retry reuses the reservation', async () => {

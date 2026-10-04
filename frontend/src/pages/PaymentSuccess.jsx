@@ -1,17 +1,15 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import { CheckCircle2, Clock, XCircle, Home as HomeIcon, MessageCircle } from "lucide-react";
+import { Clock, XCircle, Home as HomeIcon, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
 import { api } from "@/lib/api";
 import { openSupportChat } from "@/lib/whatsapp";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import ReservationConfirmation from '@/components/ReservationConfirmation';
 
 const MAX_POLLS = 15;
-const brl = (v) =>
-  (v || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: 2 });
-
 export default function PaymentSuccess() {
   const [params] = useSearchParams();
   const sessionId = params.get("session_id");
@@ -27,7 +25,7 @@ export default function PaymentSuccess() {
     let timer;
     const poll = async (n = 0) => {
       try {
-        const { data } = await api.get(`/payments/status/${sessionId}`);
+        const { data } = await api.get(`/payments/status/${encodeURIComponent(sessionId)}`);
         if (cancelled) return;
         if (data.payment_status === "paid") {
           setState({ phase: "paid", data, attempts: n });
@@ -54,7 +52,7 @@ export default function PaymentSuccess() {
   return (
     <div data-testid="payment-success-page">
       <Navbar />
-      <div className="max-w-2xl mx-auto px-4 sm:px-6 py-16">
+      <main id="conteudo" className={state.phase === 'paid' ? 'confirmation-page' : 'max-w-2xl mx-auto px-4 sm:px-6 py-16'}>
         {state.phase === "polling" && (
           <div className="text-center" data-testid="payment-polling">
             <div className="w-16 h-16 mx-auto rounded-full bg-[#1A5E63]/10 grid place-items-center">
@@ -65,15 +63,8 @@ export default function PaymentSuccess() {
           </div>
         )}
         {state.phase === "paid" && (
-          <div className="bg-white border border-[#e6dfd5] rounded-2xl p-8 text-center" data-testid="payment-paid">
-            <div className="w-16 h-16 mx-auto rounded-full bg-[#2E7D32]/15 grid place-items-center">
-              <CheckCircle2 className="w-9 h-9 text-[#2E7D32]" />
-            </div>
-            <h1 className="font-display font-extrabold text-2xl mt-5">Pagamento de teste aprovado</h1>
-            <p className="text-[#6E6E73] mt-2">
-              O pagamento de <strong className="text-[#1c1c1e]">{brl(state.data?.amount)}</strong> foi registrado no ambiente de teste. Nenhuma cobrança real foi feita.
-            </p>
-            <p className="text-xs text-[#A19585] mt-3">ID da reserva: {state.data?.booking_id}</p>
+          <div data-testid="payment-paid">
+            <ReservationConfirmation confirmation={state.data?.confirmation}/>
             <div className="mt-6 flex items-center justify-center gap-3 flex-wrap">
               <Button onClick={() => navigate("/")} className="rounded-full bg-[#1A5E63] hover:bg-[#124146] text-white" data-testid="payment-home-btn">
                 <HomeIcon className="w-4 h-4 mr-2" /> Voltar para a Home
@@ -114,7 +105,7 @@ export default function PaymentSuccess() {
             </Button>
           </div>
         )}
-      </div>
+      </main>
       <Footer />
     </div>
   );

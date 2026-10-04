@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { api } from '@/lib/api';
 import { Button } from '@/components/ui/button';
 
-export default function TestCheckout({ propertyId, start, end, guests, valid }) {
+export default function TestCheckout({ propertyId, start, end, guests, valid, onConfirmed }) {
   const [enabled, setEnabled] = useState(false);
   const [configState, setConfigState] = useState('loading');
   const [busy, setBusy] = useState(false);
@@ -30,13 +30,13 @@ export default function TestCheckout({ propertyId, start, end, guests, valid }) 
     const poll = async () => {
       try {
         const { data } = await api.get(`/payments/status/${encodeURIComponent(pix.session_id)}`);
-        if (active && data.payment_status === 'paid') { setPaid(true); setError(''); return; }
+        if (active && data.payment_status === 'paid') { setPaid(true); setError(''); onConfirmed?.(pix.session_id); return; }
       } catch { if (active) setError('Não foi possível consultar o PIX. Vamos tentar novamente.'); }
       if (active) timer = setTimeout(poll, 15000);
     };
     timer = setTimeout(poll, 15000);
     return () => { active = false; clearTimeout(timer); };
-  }, [pix, paid]);
+  }, [pix, paid, onConfirmed]);
   const checkout = async () => {
     if (!enabled || !valid || !contactValid || busy) return;
     setBusy(true);
@@ -78,7 +78,7 @@ export default function TestCheckout({ propertyId, start, end, guests, valid }) 
       <p className="helper-text" role="status">Aguardando confirmação do pagamento de teste.</p>
       {pix.expires_at && Number.isFinite(Date.parse(pix.expires_at)) && <p className="helper-text">Válido até {new Date(pix.expires_at).toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'})}.</p>}
     </div>}
-    {paid && <p role="status">Pagamento de teste confirmado. Reserva aprovada.</p>}
+    {paid && <div><p role="status">Pagamento de teste confirmado. Reserva aprovada.</p><a className="primary-action" href={`/pagamento/sucesso?session_id=${encodeURIComponent(pix.session_id)}`}>Ver confirmação da reserva</a></div>}
     {error && <p className="field-error" role="alert">{error}</p>}
   </div>;
 }

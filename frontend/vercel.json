@@ -3,6 +3,10 @@
   "installCommand": "yarn install --frozen-lockfile",
   "buildCommand": "yarn build",
   "outputDirectory": "build",
+  "headers": [{"source": "/pagamento/:path*", "headers": [
+    {"key": "Referrer-Policy", "value": "no-referrer"},
+    {"key": "Cache-Control", "value": "no-store"}
+  ]}],
   "rewrites": [
     {"source": "/api/:path*", "destination": "https://bahia-stay-api.vercel.app/api/:path*"},
     {"source": "/((?!static/|.*\\.[^/]+$).*)", "destination": "/index.html"}

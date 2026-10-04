@@ -32,7 +32,15 @@ Antes de habilitar pagamentos reais será necessário validar o fluxo completo n
 
 Não há credenciais Coldpay nem conexão Neon incluídas neste repositório. A validação de publicação, banco e pagamento externo só pode ser concluída depois da configuração dessas contas.
 
-## Verificação
+## Confirmação e e-mail da reserva
+
+Após a aprovação do pagamento de teste, o PIX leva a `/pagamento/sucesso?session_id=...`; o Stripe usa a mesma página de retorno. O resumo só é disponibilizado quando pagamento e reserva estão confirmados. Inclui foto e dados da casa, entrada, saída, noites, hóspedes, valor confirmado pelo backend e referência. O e-mail público fica mascarado; a página e a API de status não usam cache. É possível imprimir/salvar o resumo.
+
+O envio transacional usa https://resend.com/docs/api-reference/emails/send-email. Cadastre `RESEND_API_KEY` como Secret e `RESERVATION_EMAIL_FROM` com um remetente autorizado no projeto **bahia-stay-api** e publique novamente. Essas variáveis não pertencem ao frontend. Sem configuração, nenhum e-mail é enviado e a página informa que o resumo está disponível para salvar. A interface só anuncia o envio após o provedor aceitar a mensagem e devolver seu identificador; isso não garante entrega na caixa de entrada. Falhas de envio não anulam um pagamento aprovado. O envio usa uma chave de idempotência por reserva e grava o resultado para evitar repetições. E-mails de pagamentos simulados informam que não houve cobrança real. O resumo não é uma nota fiscal.
+
+Antes de ativar, valide o remetente/domínio na Resend e teste com um destinatário autorizado. Os testes automatizados usam respostas simuladas e não enviam mensagens externas. O gateway continua desativado até haver sandbox confirmado.
+
+## Testes
 
 Execute `python -m unittest discover -s backend/tests -p "test_*.py"` com as dependências instaladas e configuração local de teste. No frontend: `yarn test --watchAll=false --runInBand` e `yarn build`. Depois da publicação, confira catálogo, autenticação, edição, galeria e checkout de sandbox no endereço público.
 
@@ -52,3 +60,5 @@ A normalização da API aplica esses metadados aos registros existentes sem alte
 
 Pendências para operação real: identificar os anfitriões das 15 casas sem fonte, cadastrar dados reais de anúncio e disponibilidade, conferir o login administrativo com a senha definida pelo usuário e validar pagamentos, expiração de reservas, concorrência e cancelamentos no ambiente do gateway. O catálogo e os bloqueios autorizados para apresentação não significam disponibilidade comercial. O upload administrativo usa Cloudinary com assinatura SHA-256 feita na API, limite de 3 MB por arquivo e validação de formato. Configure CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY e CLOUDINARY_API_SECRET como secrets na API; nenhuma chave vai para o frontend. Os arquivos legados continuam com sua rota de leitura.
 O checkout recolhe nome e e-mail antes de criar a reserva; reenvios após falha de pagamento reutilizam a mesma reserva. O total continua calculado na API. O painel permite editar dados do anfitrião sem preencher nomes, anos ou tempo de resposta inventados. Atualizações aninhadas de fotos de anfitrião são preservadas no PostgreSQL.
+
+Auditoria de dependências em 03/10/2026: `yarn audit --groups dependencies` apontou 6 moderadas e 19 altas, sem críticas, no lockfile existente. As altas listadas atingem braces/SVGO na cadeia de build/testes do react-scripts e o parser data: do adaptador HTTP Node do Axios. O pacote Axios mapeia esse adaptador para null no build de navegador; o backend é Python. Isso limita a exposição desses caminhos no site estático, mas não substitui a atualização das ferramentas de build nem uma auditoria completa. Nenhuma dependência foi adicionada nesta integração.

@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useCallback, useState } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { DayPicker } from 'react-day-picker';
 import { ptBR } from 'date-fns/locale';
 import 'react-day-picker/dist/style.css';
@@ -17,6 +17,8 @@ export default function ReservationEstimate({
   property
 }) {
   const [params, setParams] = useSearchParams();
+  const navigate = useNavigate();
+  const showConfirmation = useCallback(sessionId => navigate(`/pagamento/sucesso?session_id=${encodeURIComponent(sessionId)}`, {replace:true}), [navigate]);
   const start = params.get('entrada') || '',
     end = params.get('saida') || '',
     guests = params.get('hospedes') || '1';
@@ -77,6 +79,6 @@ export default function ReservationEstimate({
       setTouched(false);
     }}>Limpar datas</button>}
   <div className="estimate-breakdown" aria-live="polite" data-testid="property-modal-price-breakdown">{hasPrice && quote.nights > 0 && !capacityError ? <><p><span>{brl(property.pricePerNight)} × {quote.nights} {quote.nights === 1 ? 'noite' : 'noites'}</span><span>{brl(quote.baseTotal)}</span></p>{quote.seasonalPeriods.map(period => <p key={period.label}><span>{period.label} +{period.percent}%<small className="season-nights">{period.nights} {period.nights === 1 ? 'noite' : 'noites'}</small></span><span>+{brl(period.extra)}</span></p>)}{quote.weeklyApplied && <p><span>Ajuste do pacote de 7 noites</span><span>-{brl(quote.nightlyTotal - quote.total)}</span></p>}<p className="estimate-total"><span>Total estimado</span><strong data-testid="booking-total">{brl(quote.total)}</strong></p><p className="helper-text">Taxas adicionais e condições finais devem ser confirmadas com o atendimento.</p></> : <p className="helper-text">{hasPrice ? 'Selecione datas disponíveis e a quantidade de hóspedes para calcular a estadia.' : 'Confirme o valor do período com o atendimento.'}</p>}</div>
-  <TestCheckout propertyId={property.id} start={start} end={end} guests={guests} valid={Boolean(hasPrice && start && end && !error && !capacityError)} />
+  <TestCheckout propertyId={property.id} start={start} end={end} guests={guests} valid={Boolean(hasPrice && start && end && !error && !capacityError)} onConfirmed={showConfirmation} />
  </aside>;
 }

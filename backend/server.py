@@ -29,6 +29,7 @@ from io import BytesIO
 from booking_price import price_booking
 from catalog_identity import enrich_catalog_identity
 from admin_credentials import credentials_match
+from reservation_email import confirmation_for_payment, ensure_confirmation_email
 from photo_storage import upload_image, MAX_IMAGE_BYTES, StorageUnavailable, storage_configured
 from coldpayments import Coldpayments, sandbox_enabled, verify_signature
 from starlette.concurrency import run_in_threadpool
@@ -651,9 +652,21 @@ async def _settle_paid_session(session_id: str, stripe_session):
             {"id": booking_id},
             {"$set": {"status": "approved", "payment_status": "paid"}},
         )
+    await notify_reservation_confirmation(session_id)
+
+
+async def notify_reservation_confirmation(session_id):
+    try:
+        payment = await db.payment_transactions.find_one({'session_id': session_id}, {'_id': 0})
+        if payment:
+            await ensure_confirmation_email(db, payment)
+    except Exception:
+        logger.warning('Reservation email could not be processed')
 
 @api_router.get("/payments/status/{session_id}")
-async def get_payment_status(session_id: str):
+async def get_payment_status(session_id: str, response: Response):
+    response.headers['Cache-Control'] = 'no-store'
+    response.headers['Referrer-Policy'] = 'no-referrer'
     rec = await db.payment_transactions.find_one({"session_id": session_id}, {"_id": 0})
     if not rec:
         raise HTTPException(status_code=404, detail="Pagamento não encontrado")
@@ -669,7 +682,10 @@ async def get_payment_status(session_id: str):
                 rec = await db.payment_transactions.find_one({'session_id': session_id}, {'_id': 0})
             except ValueError:
                 raise HTTPException(502, 'Não foi possível verificar o PIX agora')
-        return {'session_id': session_id, 'payment_status': rec['payment_status'], 'status': rec['status'], 'test_mode': True}
+        await notify_reservation_confirmation(session_id)
+        rec = await db.payment_transactions.find_one({'session_id': session_id}, {'_id': 0})
+        return {'session_id': session_id, 'payment_status': rec['payment_status'], 'status': rec['status'], 'test_mode': True,
+            'amount': rec.get('amount'), 'booking_id': rec.get('booking_id'), 'confirmation': await confirmation_for_payment(db, rec)}
     if rec.get("payment_status") != "paid":
         try:
             s = stripe.checkout.Session.retrieve(session_id)
@@ -678,6 +694,8 @@ async def get_payment_status(session_id: str):
                 rec = await db.payment_transactions.find_one({"session_id": session_id}, {"_id": 0})
         except stripe.error.StripeError:
             pass
+    await notify_reservation_confirmation(session_id)
+    rec = await db.payment_transactions.find_one({'session_id': session_id}, {'_id': 0})
     return {
         "session_id": rec["session_id"],
         "status": rec["status"],
@@ -686,6 +704,7 @@ async def get_payment_status(session_id: str):
         "currency": rec.get("currency"),
         "booking_id": rec.get("booking_id"),
         "test_mode": True,
+        "confirmation": await confirmation_for_payment(db, rec),
     }
 
 @api_router.post("/stripe/webhook")
@@ -774,6 +793,7 @@ async def settle_pix(payment):
         {'$set': {'status': 'approved', 'payment_status': 'paid'}})
     await db.payment_transactions.update_one({'session_id': record['session_id']},
         {'$set': {'status': 'completed', 'payment_status': 'paid', 'updated_at': datetime.now(timezone.utc).isoformat()}})
+    await notify_reservation_confirmation(record['session_id'])
 
 
 @api_router.post('/coldpayments/webhook')
