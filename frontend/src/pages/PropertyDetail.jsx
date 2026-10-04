@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import ReservationEstimate from "@/components/ReservationEstimate";
-import IllustrativeReviews from "@/components/IllustrativeReviews";
 import { useFavorite } from "@/lib/favorites";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -260,7 +259,6 @@ const PropertyDetail = () => {
             </div>
 
 
-            <IllustrativeReviews reviews={property.sampleReviews} />
 
             <div className="mt-6">
               <h3 className="font-display font-bold text-lg text-[#1c1c1e]">Onde você vai estar</h3>
