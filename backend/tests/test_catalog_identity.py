@@ -7,6 +7,19 @@ from catalog_identity import enrich_catalog_identity
 
 
 class CatalogIdentityTests(unittest.TestCase):
+    def test_admin_bio_and_details_survive_with_verified_name(self):
+        item = {'id': 'ref_22239854', 'hostEdited': True, 'host': {'name': 'Itamar Gama', 'bio': 'Contato atualizado', 'since': '2020'}}
+        result = enrich_catalog_identity(item)
+        self.assertEqual(result['host']['bio'], 'Contato atualizado')
+        self.assertEqual(result['host']['since'], '2020')
+        self.assertTrue(result['host']['verified'])
+
+    def test_changed_host_is_not_marked_as_verified(self):
+        item = {'id': 'ref_22239854', 'hostEdited': True, 'host': {'name': 'Outro responsável', 'verified': True, 'sourceUrl': 'old'}}
+        result = enrich_catalog_identity(item)
+        self.assertFalse(result['host']['verified'])
+        self.assertNotIn('sourceUrl', result['host'])
+
     def test_verified_listing_has_source_and_verified_host(self):
         item = enrich_catalog_identity({'id': 'ref_22239854', 'host': {'name': 'Itamar Gama'}})
         self.assertEqual(item['host']['name'], 'Itamar Gama')
@@ -29,4 +42,3 @@ class CatalogIdentityTests(unittest.TestCase):
         self.assertEqual(result['host']['name'], 'Novo responsável')
         for key in ['pricePerNight', 'images', 'unavailableDates']:
             self.assertEqual(result[key], item[key])
-

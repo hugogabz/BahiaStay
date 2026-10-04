@@ -387,6 +387,7 @@ async def update_property(pid: str, body: PropertyIn, _: dict = Depends(get_curr
     if not existing:
         raise HTTPException(status_code=404, detail="Property not found")
     update = body.model_dump()
+    update['hostEdited'] = True
     update["updated_at"] = datetime.now(timezone.utc).isoformat()
     update.pop("images", None)
     await db.properties.update_one({"id": pid}, {"$set": update})
